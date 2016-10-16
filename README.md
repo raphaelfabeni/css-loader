@@ -4,6 +4,8 @@
 
 ![loader-g](https://cloud.githubusercontent.com/assets/1345662/19414412/5e472d6c-9322-11e6-9407-5e3662072aee.gif)
 
+[Try it online! :metal:](http://www.raphaelfabeni.com.br/css-loader/)
+
 ## Why
 
 Usually it's common to show a loader to the users when they must wait something in a web application (an _ajax_ request or a form submit, etc). _Gif_image loaders was great but using CSS we can avoid the image request, also it's easier for customise and maintain and it's more cool.
