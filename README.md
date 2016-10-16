@@ -10,6 +10,28 @@
 
 Usually it's common to show a loader to the users when they must wait something in a web application (an _ajax_ request or a form submit, etc). _Gif_image loaders was great but using CSS we can avoid the image request, also it's easier for customise and maintain and it's more cool.
 
+## Installing
+
+```bash
+npm install pure-css-loader
+```
+
+Or you can clone or download the repository and get main *CSS* file that it's located in: `dist/css-loaders.css`. Add in your project and link the file in HTML:
+
+```html
+<link rel="stylesheet" href="path/to/css-loader.css">
+```
+
+Select the loader and add the HTML corresponding to it, To show the loader, you need to add the helper css class `is-active`. And to hide the loader, it's just follow the inverse, removing the css helper from the loader. You can do it with JavaScript.
+
+```html
+<!-- Loader -->
+<div class="loader loader-default"></div>
+
+<!-- Loader active -->
+<div class="loader loader-default is-active"></div>
+```
+
 ## Examples
 
 ### Default
@@ -137,24 +159,6 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 ![loader-ball](https://cloud.githubusercontent.com/assets/1345662/19314687/6d771ff8-9071-11e6-8839-713066f11056.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball) :metal:
-
-## Using
-
-You can clone or download the repository and get main *CSS* file that it's located in: `dist/css-loaders.css`. Add in your project and link the file in HTML:
-
-```html
-<link rel="stylesheet" href="path/to/css-loader.css">
-```
-
-Select the loader and add the HTML corresponding to it, To show the loader, you need to add the helper css class `is-active`. And to hide the loader, it's just follow the inverse, removing the css helper from the loader. You can do it with JavaScript.
-
-```html
-<!-- Loader -->
-<div class="loader loader-default"></div>
-
-<!-- Loader active -->
-<div class="loader loader-default is-active"></div>
-```
 
 ## Contributing
 
