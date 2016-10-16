@@ -2,7 +2,7 @@
 
 > A couple of simple examples of loaders using only one `div` and *CSS*.
 
-![loader](https://cloud.githubusercontent.com/assets/1345662/19414408/2553e1b2-9322-11e6-97a2-e42c966f0d96.gif)
+![loader-g](https://cloud.githubusercontent.com/assets/1345662/19414412/5e472d6c-9322-11e6-9407-5e3662072aee.gif)
 
 ## Why
 
