@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Loader</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="" />
+
+  <meta property="og:description" content="Simple loaders for your web applications using only one div and pure CSS." />
+  <meta property="og:title" content="CSS Loader" />
+  <meta property="og:site_name" content="CSS Loader" />
+  <meta property="og:url" content="http://www.raphaelfabeni.com.br/css-loader/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://www.raphaelfabeni.com.br/css-loader/css-loader-share.png" />
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:creator" content="@raphaelfabeni">
+  <meta name="twitter:site" content="@raphaelfabeni">
+  <meta name="twitter:domain" content="http://www.raphaelfabeni.com.br/css-loader">
+  <meta name="twitter:title" content="CSS Loader">
+  <meta name="twitter:description" content="Simple loaders for your web applications using only one div and pure CSS.">
+
+  <link rel="canonical" href="http://www.raphaelfabeni.com.br/css-loader">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="dist/main.min.css">
+  <link rel="stylesheet" href="dist/css-loader.css">
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader"></div>
+
+  <header class="header" role="header">
+    <div class="row">
+      <h1 class="header__title">CSS Loader</h1>
+      <h2 class="header__subtitle">Simple loaders for your web applications using only one div and pure CSS <span class=heart>♥</span>.</h2>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="row row--space">
+      <h3 class="title">Why?</h3>
+      <p>Usually it's common to show a loader to the users when they must wait something in a web application (an <i>ajax</i> request or a <i>form submit</i>, etc). <i>Gif</i> images were great but using CSS we can avoid the image request, also it's easier for customize/ maintain and it's more cool. <a href="https://github.com/raphaelfabeni/css-loader">Check it out in GitHub.</a></p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row row--flex">
+
+      <div class="box box--full">
+        <h3 class="box__title">Default</h3>
+        <div class="box__item">
+          <button id="loader-default" class="button">default</button>  
+        </div>
+        <div class="box__item">
+          <button id="loader-default-half" class="button">half</button>  
+        </div>
+        <div class="box__item">
+          <button id="loader-default-inverse" class="button">inverse</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-default-text" class="button">w/ text</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-default-blink" class="button">blink</button>
+        </div>
+        <div class="box__item">
+          <input type="text" id="custom-text" class="input" placeholder="custom text here">
+          <button id="loader-default-custom-text" class="button">custom text</button>
+        </div>
+      </div>
+
+      <div class="box box--full">
+        <h3 class="box__title">Bar</h3>
+        <div class="box__item">
+          <button id="loader-bar" class="button">default</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-bar-rounded" class="button">rounded</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-bar-text" class="button">w/ text</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-bar-blink" class="button">blink</button>
+        </div>
+        <div class="box__item">
+          <input type="text" id="bar-custom-text" class="input" placeholder="custom text here">
+          <button id="loader-bar-custom-text" class="button">custom text</button>
+        </div>
+      </div>
+
+      <div class="box box--full">
+        <h3 class="box__title">Border</h3>
+        <div class="box__item">
+          <button id="loader-border" class="button">default</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-border-text" class="button">w/ text</button>
+        </div>
+        <div class="box__item">
+          <button id="loader-border-blink" class="button">blink</button>
+        </div>
+        <div class="box__item">
+          <input type="text" id="border-custom-text" class="input" placeholder="custom text here">
+          <button id="loader-border-custom-text" class="button">custom-text</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="box__title">Double</h3>
+        <div class="box__item">
+          <button id="loader-double" class="button">default</button>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3 class="box__title">Ball</h3>
+        <button id="loader-ball" class="button">default</button>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer" role="footer">
+    <div class="row">
+      <p>Made with <span class="heart heart--small">♥</span> by <a class="text-yellow" href="http://twitter.com/raphaelfabeni">Raphael Fabeni</a>.</p>
+      <p><a class="text-yellow" href="https://github.com/raphaelfabeni/css-loader">View in GitHub.</a></p>
+    </div>
+  </footer>
+  
+  <script src="dist/main.min.js"></script>
+  <!-- -->
+  <script type="text/javascript">
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-16831060-1');ga('send','pageview');
+  </script>
+</body>
+</html>

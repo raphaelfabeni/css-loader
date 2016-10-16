@@ -1,21 +1,28 @@
 {
-  "name": "css-loader",
+  "name": "css-loader-page",
   "version": "1.0.0",
   "repository": "raphaelfabeni/css-loader",
   "description": "Simple loaders for your web applications using only one div and pure CSS ♥.",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "browser-sync start --server",
+    "build:css": "cleancss -o ./dist/main.min.css ./assets/css/main.css",
+    "build:js": "uglifyjs ./assets/js/main.js > ./dist/main.min.js",
+    "build": "npm run build:css && npm run build:js",
+    "watch:css": "watchy -w ./assets/css/main.css -- npm run build:css",
+    "watch:js": "watchy -w ./assets/js/main.js -- npm run build:js",
+    "reload:dist": "watchy -w ./dist -- browser-sync reload",
+    "reload:index": "watchy -w ./index.html -- browser-sync reload",
+    "reload:all": "npm run watch:css & npm run watch:js & npm run reload:dist & npm run reload:index",
+    "start": "npm run build && npm run reload:all & npm run server"
   },
   "author": "Raphael Fabeni",
   "license": "MIT",
   "dependencies": {
-    "browser-sync": "^2.16.0",
-    "gulp": "^3.9.1",
-    "gulp-notify": "^2.2.0",
-    "gulp-sass": "^2.3.2",
-    "gulp-sass-lint": "^1.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-util": "^3.0.7"
+    "browser-sync": "^2.17.3",
+    "clean-css": "^3.4.20",
+    "uglify-js": "^2.7.3",
+    "watchy": "^0.6.6"
   }
 }
