@@ -1,0 +1,30 @@
+// Data text
+// ==========================================================================
+.loader
+
+  &[data-text]
+
+    &:before
+      position: fixed
+      left: 0
+      top: 50%
+      color: currentColor
+      font-family: Helvetica, Arial, sans-serif
+      text-align: center
+      width: 100%
+
+  // Default text
+  &[data-text = '']
+    &:before
+      content: 'Loading'
+
+  // Passing text as attribute
+  &:not([data-text = ''])
+    &:before
+      content: attr(data-text)
+
+  // Blink animation
+  // ==========================================================================
+  &[blink]
+    &:before
+      animation: blink 1s linear infinite alternate

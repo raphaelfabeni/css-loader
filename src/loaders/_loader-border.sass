@@ -1,0 +1,49 @@
+// Loader border
+// ==========================================================================
+
+$loader-border--width: 15px
+$loader-border--height: 15px
+
+// Corners animation
+@keyframes corners
+  6%
+    width: $loader-border--width * 4
+    height: $loader-border--height
+
+  25%
+    width: $loader-border--width
+    height: $loader-border--height
+    left: calc(100% - #{$loader-border--width})
+    top: 0
+
+  31%
+    height: $loader-border--height * 4
+
+  50%
+    height: $loader-border--height
+    top: calc(100% - #{$loader-border--height})
+    left: calc(100% - #{$loader-border--width})
+
+  56%
+    width: $loader-border--width * 4
+
+  75%
+    width: $loader-border--width
+    left: 0
+    top: calc(100% - #{$loader-border--height})
+
+  81%
+    height: $loader-border--width * 4
+
+
+.loader-border
+
+  &:after
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: $loader-border--width
+    height: $loader-border--height
+    background-color: #fff
+    animation: corners 3s ease both infinite
