@@ -10,13 +10,17 @@
 
 Usually it's common to show a loader to the users when they must wait something in a web application (an _ajax_ request or a form submit, etc). _Gif_image loaders was great but using CSS we can avoid the image request, also it's easier for customise and maintain and it's more cool.
 
-## Installing
+## Install
 
 ```bash
 npm install pure-css-loader
 ```
 
-Or you can clone or download the repository and get main *CSS* file that it's located in: `dist/css-loaders.css`. Add in your project and link the file in HTML:
+Also you can clone the repository or [download the zip file](https://github.com/raphaelfabeni/css-loader/archive/master.zip) and get main *CSS* file that it's located in: `dist/css-loader.css`.
+
+## Setup
+
+Add the CSS file in your project and add the link to the file:
 
 ```html
 <link rel="stylesheet" href="path/to/css-loader.css">
