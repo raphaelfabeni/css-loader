@@ -52,6 +52,14 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-blink) :metal:
 
+**half**: a _half_ loader.
+
+![loader-half](https://cloud.githubusercontent.com/assets/1345662/19418371/55ae80cc-93a1-11e6-9273-22955e62a6a4.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-half) :metal:
+
+They variations _half_, _data-text_ and _blink_ work together. 😄
+
 ### Double
 
 ```html
