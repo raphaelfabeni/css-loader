@@ -20,6 +20,8 @@ Usually it's common to show a loader to the users when they must wait something 
 
 ![loader](https://cloud.githubusercontent.com/assets/1345662/19313531/2c715f18-906d-11e6-856a-17ca264112de.gif)
 
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default) :metal:
+
 #### Variations
 
 **data-text**: it's to add a _Loading_ text into the loader. Just add the `data-text` attribute.
@@ -29,6 +31,8 @@ Usually it's common to show a loader to the users when they must wait something 
 ```
 
 ![loader-data-text](https://cloud.githubusercontent.com/assets/1345662/19313794/1fdf0ce0-906e-11e6-8a9f-39d2421a41d6.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-text) :metal:
 
 It's also possible to change the text, just passing a value to the attribute `data-text`.
 
@@ -46,6 +50,8 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 ![loader-blink](https://cloud.githubusercontent.com/assets/1345662/19313798/25fa2830-906e-11e6-88d2-2f165a68cb80.gif)
 
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-blink) :metal:
+
 ### Double
 
 ```html
@@ -54,6 +60,8 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 ![loader-double](https://cloud.githubusercontent.com/assets/1345662/19314508/c2279a06-9070-11e6-8079-4fa82b5f2610.gif)
 
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-double) :metal:
+
 ### Bar
 
 ```html
@@ -61,6 +69,8 @@ It's also possible to change the text, just passing a value to the attribute `da
 ```
 
 ![loader-bar](https://cloud.githubusercontent.com/assets/1345662/19314685/6d719056-9071-11e6-88c8-2c3750ca0198.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar) :metal:
 
 ### Variations
 
@@ -74,6 +84,8 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 <div class="loader loader-bar is-active" data-text blink></div>
 ```
 
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-text) :metal:
+
 **rounded**: passing the `rounded` attribute, it's possible to add a simple `border-radius` to the loader.
 
 ![loader-bar-rounded](https://cloud.githubusercontent.com/assets/1345662/19315031/ab850700-9072-11e6-9cd4-9fe899f05a10.gif)
@@ -82,25 +94,31 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 <div class="loader loader-bar is-active" data-text rounded></div>
 ```
 
-### Corner
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-rounded) :metal:
 
-![loader-corner](https://cloud.githubusercontent.com/assets/1345662/19314686/6d733622-9071-11e6-8167-a55e6c16a02f.gif)
+### Border
+
+![loader-border](https://cloud.githubusercontent.com/assets/1345662/19314686/6d733622-9071-11e6-8167-a55e6c16a02f.gif)
 
 ```html
-<div class="loader loader-corner is-active"></div>
+<div class="loader loader-border is-active"></div>
 ```
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-border) :metal:
 
 ### Variations
 
 Like the `loader` example, it's also possible pass the `data-text` and `blink` attributes.
 
 ```html
-<div class="loader loader-corner is-active" data-text></div>
+<div class="loader loader-border is-active" data-text></div>
 <!-- -->
-<div class="loader loader-corner is-active" data-text="Custom text"></div>
+<div class="loader loader-border is-active" data-text="Custom text"></div>
 <!-- -->
-<div class="loader loader-corner is-active" data-text blink></div>
+<div class="loader loader-border is-active" data-text blink></div>
 ```
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-border-text) :metal:
 
 ### Ball
 
@@ -109,6 +127,8 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 ```
 
 ![loader-ball](https://cloud.githubusercontent.com/assets/1345662/19314687/6d771ff8-9071-11e6-8839-713066f11056.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball) :metal:
 
 ## Using
 
