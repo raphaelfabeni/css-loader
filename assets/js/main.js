@@ -162,12 +162,23 @@
   }
 
   function hideLoader(param, attr) {
+    console.log('disparou');
     timer = setTimeout(function() {
       loader.classList.remove('is-active', param, 'loader');
       for(var k = 0; k < attr.length; k++) {
         loader.removeAttribute(attr[k]['attribute']);
       }
     }, 5000);
+  }
+
+  // Hash
+  
+  if(window.location.hash) {
+    var loaderHash = window.location.hash.split('#/')[1];
+
+    var event = document.createEvent('HTMLEvents');
+    event.initEvent('click', true, false);
+    document.getElementById(loaderHash).dispatchEvent(event);
   }
 
 })();
