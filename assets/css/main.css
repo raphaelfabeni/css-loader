@@ -129,7 +129,7 @@ body {
 
 .box__item {
   display: inline-block;
-  margin: 4px 0;
+  margin: 8px 0;
 }
 
 .box__title {
@@ -196,4 +196,24 @@ a:hover {
 
 .text-white {
   color: #fff;
+}
+
+/* Media */
+@media screen and (max-width: 550px) {
+
+  .header {
+    padding: 25px 10px;
+  }
+
+  .header__title {
+    font-size: 32px;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+  }
+
+  .header__subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
 }
