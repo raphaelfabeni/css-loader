@@ -164,6 +164,14 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball) :metal:
 
+### Variations
+
+*shadow*: a version of the ball with inset shadow.
+
+![loader-ball-shadow](https://cloud.githubusercontent.com/assets/1345662/19502619/06f1c906-958d-11e6-87c9-d64b13688485.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball-shadow) :metal:
+
 ## Contributing
 
 1. Clone this repository.
