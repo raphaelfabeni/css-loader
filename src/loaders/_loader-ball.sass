@@ -14,6 +14,9 @@
     border-radius: 50%
     z-index: 1
     animation: kick 1s infinite alternate ease-in both
+
+  &[shadow]:before
+    box-shadow: -5px -5px 10px 0 $loader-ball--shadow inset
   
   &:after
     content: ''
@@ -48,4 +51,4 @@
   
   100%
     transform: translateY(0) scaleX(1)
-    border-radius: 50% 50% 30% 30%
+    border-radius: 50% 50% 20% 20%
