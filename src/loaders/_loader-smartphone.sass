@@ -3,15 +3,37 @@
 
 .loader-smartphone
 
-  &:before
+  &:after
+    content: ''
+    color: $loader-smartphone--text-color
+    font-size: 12px
+    font-family: $font-loader
+    text-align: center
+    line-height: 120px
     position: fixed
     left: 50%
     top: 50%
-    width: 50px
-    height: 100px
-    border: solid 5px #fff
+    width: 70px
+    height: 130px
+    margin: -65px 0 0 -35px
+    border: solid 5px $loader-smartphone--color
     border-radius: 10px
-    box-shadow: 0 5px 0 0 #fff inset, 0 -15px 0 0 #fff inset
-    background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%)
+    box-shadow: 0 5px 0 0 $loader-smartphone--color inset
+    background: radial-gradient(circle at 50% 90%, rgba(0,0,0,.5) 6px, transparent 6px), linear-gradient(to top, $loader-smartphone--color 22px, transparent 22px), linear-gradient(to top, rgba(0,0,0,.5) 22px, rgba(0,0,0,.5) 100%)
+    animation: shake 2s cubic-bezier(.36,.07,.19,.97) both infinite
 
+  &[data-screen = '']
+    &:after
+      content: 'Loading'
 
+  // Passing text as attribute
+  &:not([data-screen = ''])
+    &:after
+      content: attr(data-screen)
+
+@keyframes shake
+  5%, 15%, 25%, 35%, 45%, 55%
+    transform: translate3d(-1px, 0, 0);
+  
+  10%, 20%, 30%, 40%, 50%
+    transform: translate3d(1px, 0, 0);
