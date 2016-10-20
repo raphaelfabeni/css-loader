@@ -118,6 +118,34 @@
     {
       button: document.getElementById('loader-ball'),
       className: 'loader-ball'
+    },
+    {
+      button: document.getElementById('loader-ball-shadow'),
+      className: 'loader-ball',
+      attributes: [
+        { attribute: 'shadow' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-smartphone'),
+      className: 'loader-smartphone'
+    },
+    {
+      button: document.getElementById('loader-smartphone-text'),
+      className: 'loader-smartphone',
+      attributes: [
+        { attribute: 'data-screen' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-smartphone-custom-text'),
+      className: 'loader-smartphone',
+      attributes: [
+        {
+          attribute: 'data-screen',
+          value: document.getElementById('smartphone-custom-text')
+        }
+      ]
     }
   ];
 
