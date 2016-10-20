@@ -1,15 +1,12 @@
 // Loader bar
 // ==========================================================================
 
-$loader-bar--color: #52b3d9
-$loader-bar--color-secondary: #4183d7
-$loader-bar--text-color: #fff
-
 .loader-bar
   
   // Before is used for data-text attribute
   &[data-text]:before
     top: calc(50% - 40px)
+    color: $loader-bar--text-color
 
   &:after
     content: ''

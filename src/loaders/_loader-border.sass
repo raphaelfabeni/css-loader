@@ -1,9 +1,6 @@
 // Loader border
 // ==========================================================================
 
-$loader-border--width: 15px
-$loader-border--height: 15px
-
 // Corners animation
 @keyframes corners
   6%
@@ -37,6 +34,10 @@ $loader-border--height: 15px
 
 
 .loader-border
+  
+  // Before is used for data-text attribute
+  &[data-text]:before
+    color: $loader-border--text-color
 
   &:after
     content: ''
@@ -45,5 +46,5 @@ $loader-border--height: 15px
     left: 0
     width: $loader-border--width
     height: $loader-border--height
-    background-color: #fff
+    background-color: $loader-border--color
     animation: corners 3s ease both infinite

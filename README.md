@@ -106,7 +106,7 @@ They variations _half_, _data-text_ and _blink_ work together. 😄
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar) :metal:
 
-### Variations
+#### Variations
 
 Like the `loader` example, it's also possible pass the `data-text` and `blink` attributes.
 
@@ -140,7 +140,7 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-border) :metal:
 
-### Variations
+#### Variations
 
 Like the `loader` example, it's also possible pass the `data-text` and `blink` attributes.
 
@@ -157,12 +157,46 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 ### Ball
 
 ```html
-<div class="loader loader-ball is-active" data-text></div>
+<div class="loader loader-ball is-active"></div>
 ```
 
 ![loader-ball](https://cloud.githubusercontent.com/assets/1345662/19314687/6d771ff8-9071-11e6-8839-713066f11056.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball) :metal:
+
+#### Variations
+
+*shadow*: a version of the ball with inset shadow.
+
+![loader-ball-shadow](https://cloud.githubusercontent.com/assets/1345662/19502619/06f1c906-958d-11e6-87c9-d64b13688485.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball-shadow) :metal:
+
+### Smartphone
+
+```html
+<div class="loader loader-smartphone is-active"></div>
+```
+
+![loader-smartphone-empty](https://cloud.githubusercontent.com/assets/1345662/19544262/83cd4b42-965c-11e6-9238-91a48f0d5cf5.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone) :metal:
+
+#### Variations
+
+*w/ screen text*: it's possible to pass an attribute to loader and show a simple text inside the screen. Like the others one, if we only pass the attribute, a default _loading_ text shows; but you can pass a custom text. Just remember that can't be a big word (our smartphone screen is small).
+
+```html
+<!-- default loading text -->
+<div class="loader loader-smartphone is-active" data-screen></div>
+
+<!-- custom text -->
+<div class="loader loader-smartphone is-active" data-screen="hello"></div>
+```
+
+![loader-smartphone](https://cloud.githubusercontent.com/assets/1345662/19544263/83ec08a2-965c-11e6-99f3-fea1896c0191.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone-text) :metal:
 
 ## Contributing
 
