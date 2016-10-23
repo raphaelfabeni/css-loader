@@ -198,6 +198,16 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone-text) :metal:
 
+### Clock
+
+```html
+<div class="loader loader-clock is-active"></div>
+```
+
+![loader-clock](https://cloud.githubusercontent.com/assets/1345662/19628192/f09d9a88-9936-11e6-8a2c-de22df0f820b.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-clock) :metal:
+
 ## Contributing
 
 1. Clone this repository.

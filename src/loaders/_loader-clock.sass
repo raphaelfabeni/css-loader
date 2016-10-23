@@ -1,0 +1,36 @@
+// Loader clock
+// ==========================================================================
+
+.loader-clock
+  
+  &:before
+    content: ''
+    position: fixed
+    width: 200px
+    height: 200px
+    left: 50%
+    top: 50%
+    border-radius: 50%
+    overflow: hidden
+    margin: -100px 0 0 -100px
+    background: linear-gradient(to bottom, transparent 50%, $loader-clock--color-bg 50%),
+    linear-gradient(90deg, transparent 95px, $loader-clock--color 95px, $loader-clock--color 105px, transparent 105px),
+    linear-gradient(to bottom, $loader-clock--color-bg 50%, $loader-clock--color-bg 50%)
+    box-shadow: 0 0 0 10px $loader-clock--color-bg inset, 0 0 0 5px $loader-clock--color-border, 0 0 0 10px lighten($loader-clock--color-border, 15%)
+    animation: rotation infinite 2s linear
+  
+  &:after
+    content: ''
+    position: fixed
+    width: 100px
+    height: 40px
+    left: 50%
+    top: 50%
+    margin: -20px 0 0 -20px
+    border-radius: 20px 0 0 20px
+    overflow: hidden
+    background: radial-gradient(circle at 18px 20px, darken($loader-clock--color, 10%) 15px, transparent 15px),
+    radial-gradient(circle at 18px 20px, darken($loader-clock--color, 20%) 18px, transparent 18px),
+    linear-gradient(180deg, transparent 15px, $loader-clock--color 15px, $loader-clock--color 25px, transparent 25px)
+    animation: rotation infinite 24s linear
+    transform-origin: 20px 20px
