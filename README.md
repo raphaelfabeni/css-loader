@@ -10,6 +10,22 @@
 
 Usually it's common to show a loader to the users when they must wait something in a web application (an _ajax_ request or a form submit, etc). _Gif_image loaders was great but using CSS we can avoid the image request, also it's easier for customise and maintain and it's more cool.
 
+## toc
+
+* [Install](#install)
+* [Setup](#setup)
+* [Examples](#examples)
+  * [default](#default)
+  * [double](#double)
+  * [double](#double)
+  * [bar](#bar)
+  * [border](#border)
+  * [ball](#ball)
+  * [smartphone](#smartphone)
+  * [clock](#clock)
+* [Contributing](#contributing)
+* [Browser Support](#browser-support)
+
 ## Install
 
 ```bash
