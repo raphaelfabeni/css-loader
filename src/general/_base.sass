@@ -13,6 +13,12 @@
   &:before
     box-sizing: border-box
 
+  &:after
+    display: none
+
+  &.is-active:after
+    display: inherit
+
   &.is-active
     background-color: $bg-loader
     width: 100%
