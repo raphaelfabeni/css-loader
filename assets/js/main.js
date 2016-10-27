@@ -146,6 +146,10 @@
           value: document.getElementById('smartphone-custom-text')
         }
       ]
+    },
+    {
+      button: document.getElementById('loader-clock'),
+      className: 'loader-clock'
     }
   ];
 
