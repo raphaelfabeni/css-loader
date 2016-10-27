@@ -10,6 +10,22 @@
 
 Usually it's common to show a loader to the users when they must wait something in a web application (an _ajax_ request or a form submit, etc). _Gif_image loaders was great but using CSS we can avoid the image request, also it's easier for customise and maintain and it's more cool.
 
+## toc
+
+* [Install](#install)
+* [Setup](#setup)
+* [Examples](#examples)
+  * [default](#default)
+  * [double](#double)
+  * [double](#double)
+  * [bar](#bar)
+  * [border](#border)
+  * [ball](#ball)
+  * [smartphone](#smartphone)
+  * [clock](#clock)
+* [Contributing](#contributing)
+* [Browser Support](#browser-support)
+
 ## Install
 
 ```bash
@@ -197,6 +213,16 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 ![loader-smartphone](https://cloud.githubusercontent.com/assets/1345662/19544263/83ec08a2-965c-11e6-99f3-fea1896c0191.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone-text) :metal:
+
+### Clock
+
+```html
+<div class="loader loader-clock is-active"></div>
+```
+
+![loader-clock](https://cloud.githubusercontent.com/assets/1345662/19628192/f09d9a88-9936-11e6-8a2c-de22df0f820b.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-clock) :metal:
 
 ## Contributing
 
