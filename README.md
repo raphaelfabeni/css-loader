@@ -17,7 +17,6 @@ Usually it's common to show a loader to the users when they must wait something 
 * [Examples](#examples)
   * [default](#default)
   * [double](#double)
-  * [double](#double)
   * [bar](#bar)
   * [border](#border)
   * [ball](#ball)
