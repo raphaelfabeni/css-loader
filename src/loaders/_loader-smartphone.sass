@@ -19,8 +19,8 @@
     border: solid 5px $loader-smartphone--color
     border-radius: 10px
     box-shadow: 0 5px 0 0 $loader-smartphone--color inset
-    background: radial-gradient(circle at 50% 90%, rgba(0,0,0,.5) 6px, transparent 6px), linear-gradient(to top, $loader-smartphone--color 22px, transparent 22px), linear-gradient(to top, rgba(0,0,0,.5) 22px, rgba(0,0,0,.5) 100%)
-    animation: shake 2s cubic-bezier(.36,.07,.19,.97) both infinite
+    background: radial-gradient(circle at 50% 90%, rgba(0, 0, 0, .5) 6px, transparent 6px), linear-gradient(to top, $loader-smartphone--color 22px, transparent 22px), linear-gradient(to top, rgba(0, 0, 0,.5) 22px, rgba(0, 0, 0, .5) 100%)
+    animation: shake 2s cubic-bezier(.36, .07, .19, .97) both infinite
 
   &[data-screen = '']
     &:after
@@ -32,8 +32,17 @@
       content: attr(data-screen)
 
 @keyframes shake
-  5%, 15%, 25%, 35%, 45%, 55%
+  5%,
+  15%,
+  25%,
+  35%,
+  45%,
+  55%
     transform: translate3d(-1px, 0, 0);
   
-  10%, 20%, 30%, 40%, 50%
+  10%,
+  20%,
+  30%,
+  40%,
+  50%
     transform: translate3d(1px, 0, 0);
