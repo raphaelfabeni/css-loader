@@ -1,6 +1,6 @@
 # CSS loader
 
-> A couple of simple examples of loaders using only one `div` and *CSS*.
+> A few simple examples of loaders using only one `div` and *CSS*.
 
 ![loader-g](https://cloud.githubusercontent.com/assets/1345662/19414412/5e472d6c-9322-11e6-9407-5e3662072aee.gif)
 
@@ -8,7 +8,7 @@
 
 ## Why
 
-Usually it's common to show a loader to the users when they must wait something in a web application (an _ajax_ request or a form submit, etc). _Gif_image loaders was great but using CSS we can avoid the image request, also it's easier for customise and maintain and it's more cool.
+It's usually common to show a loader to users when they must wait for something in a web application (an _ajax_ request or a form submit, etc). _Gif_ image loaders were great but by using CSS we can avoid the image request, also it's easier to customise and maintain and it's cooler.
 
 ## toc
 
@@ -31,17 +31,17 @@ Usually it's common to show a loader to the users when they must wait something 
 npm install pure-css-loader
 ```
 
-Also you can clone the repository or [download the zip file](https://github.com/raphaelfabeni/css-loader/archive/master.zip) and get main *CSS* file that it's located in: `dist/css-loader.css`.
+Also you can clone the repository or [download the zip file](https://github.com/raphaelfabeni/css-loader/archive/master.zip) and get the main *CSS* file that is located in: `dist/css-loader.css`.
 
 ## Setup
 
-Add the CSS file in your project and add the link to the file:
+Add the CSS file to your project and add the link to the file:
 
 ```html
 <link rel="stylesheet" href="path/to/css-loader.css">
 ```
 
-Select the loader and add the HTML corresponding to it, To show the loader, you need to add the helper css class `is-active`. And to hide the loader, it's just follow the inverse, removing the css helper from the loader. You can do it with JavaScript.
+Select the loader and add the corresponding HTML. In order to show the loader, you need to add the helper CSS class `is-active`. And to hide the loader, just do the opposite, removing the CSS helper from the loader. You can do it with JavaScript.
 
 ```html
 <!-- Loader -->
@@ -65,7 +65,7 @@ Select the loader and add the HTML corresponding to it, To show the loader, you 
 
 #### Variations
 
-**data-text**: it's to add a _Loading_ text into the loader. Just add the `data-text` attribute.
+**data-text**: add a _Loading_ text to the loader. Just add the `data-text` attribute.
 
 ```html
 <div class="loader loader-default is-active" data-text></div>
@@ -99,7 +99,7 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-half) :metal:
 
-They variations _half_, _data-text_ and _blink_ work together. 😄
+The variations _half_, _data-text_ and _blink_ work together. 😄
 
 ### Double
 
@@ -123,7 +123,7 @@ They variations _half_, _data-text_ and _blink_ work together. 😄
 
 #### Variations
 
-Like the `loader` example, it's also possible pass the `data-text` and `blink` attributes.
+Like the `loader` example, it's also possible to pass the `data-text` and `blink` attributes.
 
 ```html
 <div class="loader loader-bar is-active" data-text></div>
@@ -157,7 +157,7 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 
 #### Variations
 
-Like the `loader` example, it's also possible pass the `data-text` and `blink` attributes.
+Like the `loader` example, it's also possible to pass the `data-text` and `blink` attributes.
 
 ```html
 <div class="loader loader-border is-active" data-text></div>
@@ -199,7 +199,7 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 
 #### Variations
 
-*w/ screen text*: it's possible to pass an attribute to loader and show a simple text inside the screen. Like the others one, if we only pass the attribute, a default _loading_ text shows; but you can pass a custom text. Just remember that can't be a big word (our smartphone screen is small).
+*w/ screen text*: it's possible to pass an attribute to the loader and show a simple text inside the screen. Like the other one, if we only pass the attribute, a default _loading_ text is shown; but you can pass a custom text. Just remember that it can't be a big word (our smartphone screen is small).
 
 ```html
 <!-- default loading text -->
@@ -227,7 +227,7 @@ Like the `loader` example, it's also possible pass the `data-text` and `blink` a
 
 1. Clone this repository.
 2. `npm install` and `gulp`
-3. Open => `http://localhost:300`
+3. Open => `http://localhost:3000`
 4. Make your magic contribution.
 5. Open a _PR_ with a new branch describing your changes. <o/
 
@@ -239,9 +239,9 @@ All examples use CSS _animation_ which is supported by [most current browsers](h
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 43+ ✔ | 16+ ✔ | 10+ ✔ | 30+ ✔ | 9+ ✔ | 5.2+ ✔
 
-Based on _Can i Use_. One thing to note is the CSS file has no browsers prefixes, but you can easily add and increase the support of the browsers.
+Based on _Can i Use_. One thing to note is that the CSS file has no browser prefixes, but you can easily add them and increase the browser support.
 
-## Licence
+## License
 
 [MIT License](https://raphaelfabeni.mit-license.org/) © Raphael Fabeni
 
