@@ -3,8 +3,8 @@ options:
 files:
   include: '_sass/**/*.s+(a|c)ss'
   ignore: 
-    - '/node_modules/**/*.s+(a|c)ss'
     - 'dist/*.css'
+    - '/node_modules/**/*.s+(a|c)ss'
 rules:
 
   # Extends
