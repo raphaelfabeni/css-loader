@@ -2,7 +2,7 @@
 // ==========================================================================
 
 .loader-clock
-  
+
   &:before
     content: ''
     position: fixed
@@ -13,12 +13,10 @@
     border-radius: 50%
     overflow: hidden
     margin: -60px 0 0 -60px
-    background: linear-gradient(to bottom, transparent 50%, $loader-clock--color-bg 50%),
-    linear-gradient(90deg, transparent 55px, $loader-clock--color 55px, $loader-clock--color 65px, transparent 65px),
-    linear-gradient(to bottom, $loader-clock--color-bg 50%, $loader-clock--color-bg 50%)
+    background: linear-gradient(to bottom, transparent 50%, $loader-clock--color-bg 50%), linear-gradient(90deg, transparent 55px, $loader-clock--color 55px, $loader-clock--color 65px, transparent 65px), linear-gradient(to bottom, $loader-clock--color-bg 50%, $loader-clock--color-bg 50%)
     box-shadow: 0 0 0 10px $loader-clock--color-bg inset, 0 0 0 5px $loader-clock--color-border, 0 0 0 10px lighten($loader-clock--color-border, 15%)
     animation: rotation infinite 2s linear
-  
+
   &:after
     content: ''
     position: fixed
@@ -29,8 +27,6 @@
     margin: -20px 0 0 -15px
     border-radius: 20px 0 0 20px
     overflow: hidden
-    background: radial-gradient(circle at 14px 20px, darken($loader-clock--color, 10%) 10px, transparent 10px),
-    radial-gradient(circle at 14px 20px, darken($loader-clock--color, 20%) 14px, transparent 14px),
-    linear-gradient(180deg, transparent 15px, $loader-clock--color 15px, $loader-clock--color 25px, transparent 25px)
+    background: radial-gradient(circle at 14px 20px, darken($loader-clock--color, 10%) 10px, transparent 10px), radial-gradient(circle at 14px 20px, darken($loader-clock--color, 20%) 14px, transparent 14px), linear-gradient(180deg, transparent 15px, $loader-clock--color 15px, $loader-clock--color 25px, transparent 25px)
     animation: rotation infinite 24s linear
     transform-origin: 15px center

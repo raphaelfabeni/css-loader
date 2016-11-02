@@ -14,18 +14,17 @@
       width: 100%
       font-size: $font-size-loader
 
-  // Default text
+// Default text
   &[data-text = '']
     &:before
       content: 'Loading'
 
-  // Passing text as attribute
+// Passing text as attribute
   &:not([data-text = ''])
     &:before
       content: attr(data-text)
 
-  // Blink animation
-  // ==========================================================================
+// Blink animation
   &[blink]
     &:before
       animation: blink 1s linear infinite alternate
