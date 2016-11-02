@@ -17,11 +17,11 @@
 
   &[shadow]:before
     box-shadow: -5px -5px 10px 0 $loader-ball--shadow inset
-  
+
   &:after
     content: ''
     position: absolute
-    background-color: rgba(0,0,0,.3)
+    background-color: rgba(0, 0, 0, .3)
     border-radius: 50%
     width: 45px
     height: 20px
@@ -32,23 +32,29 @@
     animation: shadow 1s infinite alternate ease-out both
 
 @keyframes shadow
-  0%, 
-  40%
-    background-color: rgba(0,0,0,0)
+  0%
+    background-color: rgba(0, 0, 0, 0)
     transform: scale(0)
 
-  95%,
+  40%
+    background-color: rgba(0, 0, 0, 0)
+    transform: scale(0)
+
+  95%
+    background-color: rgba(0, 0, 0, .75)
+    transform: scale(1)
+
   100%
-    background-color: rgba(0,0,0, .75)
+    background-color: rgba(0, 0, 0, .75)
     transform: scale(1)
 
 @keyframes kick
   0%
     transform: translateY(-80px) scaleX(.95)
-  
+
   90%
     border-radius: 50%
-  
+
   100%
     transform: translateY(0) scaleX(1)
     border-radius: 50% 50% 20% 20%
