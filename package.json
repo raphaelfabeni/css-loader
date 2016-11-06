@@ -1,6 +1,6 @@
 {
   "name": "pure-css-loader",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "repository": "https://github.com/raphaelfabeni/css-loader",
   "description": "Simple loaders for your web applications using only one div and pure CSS ♥.",
   "main": "index.js",
