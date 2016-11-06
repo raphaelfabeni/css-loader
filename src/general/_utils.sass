@@ -17,10 +17,10 @@
     &:before
       content: 'Loading'
 
-  &:not([data-text = ''])
+  &[data-text]:not([data-text = ''])
     &:before
       content: attr(data-text)
 
-  &[blink]
+  &[data-text][blink]
     &:before
       animation: blink 1s linear infinite alternate
