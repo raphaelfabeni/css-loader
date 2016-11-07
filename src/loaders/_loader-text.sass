@@ -1,0 +1,47 @@
+$loader-mask--size: 100px
+$loader-mask--color: #666
+$loader-mask--color-mask: #f1c40f
+
+.loader-text
+
+  &:before,
+  &:after
+    position: fixed
+    width: 100%
+    top: 50%
+    margin-top: - $loader-mask--size / 2
+    font-size: $loader-mask--size
+    content: 'Loading'
+    text-align: center
+    font-family: $font-loader
+    overflow: hidden
+    line-height: 1.2
+    animation: maskBottom 2s linear infinite alternate both
+
+  &:before
+    color: $loader-mask--color
+
+  &:after
+    color: $loader-mask--color-mask
+    height: 0
+    animation: mask 1s linear infinite alternate
+
+@keyframes maskBottom
+  0%
+    color: #2ecc71
+
+  50%
+    color: #2ecc71
+
+  51%
+    color: #3498db
+
+  100%
+    color: #3498db
+
+@keyframes mask
+  0%
+    height: 0
+
+  100%
+    height: $loader-mask--size * 1.2
