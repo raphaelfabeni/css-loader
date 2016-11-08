@@ -262,8 +262,6 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-curtain is-active" colorful curtain-text="Hello"></div>
 ```
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain-custom-text) :metal:
-
 ## Contributing
 
 1. Clone this repository.
