@@ -22,6 +22,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [ball](#ball)
   * [smartphone](#smartphone)
   * [clock](#clock)
+  * [curtain](#curtain)
 * [Contributing](#contributing)
 * [Browser Support](#browser-support)
 
@@ -181,7 +182,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 #### Variations
 
-*shadow*: a version of the ball with inset shadow.
+**shadow**: a version of the ball with inset shadow.
 
 ![loader-ball-shadow](https://cloud.githubusercontent.com/assets/1345662/19502619/06f1c906-958d-11e6-87c9-d64b13688485.gif)
 
@@ -199,7 +200,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 #### Variations
 
-*w/ screen text*: it's possible to pass an attribute to the loader and show a simple text inside the screen. Like the other one, if we only pass the attribute, a default _loading_ text is shown; but you can pass a custom text. Just remember that it can't be a big word (our smartphone screen is small).
+**w/ screen text**: it's possible to pass an attribute to the loader and show a simple text inside the screen. Like the other one, if we only pass the attribute, a default _loading_ text is shown; but you can pass a custom text. Just remember that it can't be a big word (our smartphone screen is small).
 
 ```html
 <!-- default loading text -->
@@ -222,6 +223,46 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ![loader-clock](https://cloud.githubusercontent.com/assets/1345662/19628192/f09d9a88-9936-11e6-8a2c-de22df0f820b.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-clock) :metal:
+
+### Curtain
+
+```html
+<div class="loader loader-curtain is-active"></div>
+```
+
+![loader-curtain-default](https://cloud.githubusercontent.com/assets/1345662/20083193/fd7043fc-a541-11e6-8f86-e08cbb2c02c2.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain) :metal:
+
+#### Variations
+
+**brazilian**: a simple version using the traditional brazilian green and yellow. :brazil:
+
+```html
+<div class="loader loader-curtain is-active" brazilian></div>
+```
+
+![loader-curtain-br](https://cloud.githubusercontent.com/assets/1345662/20083191/fd5596c4-a541-11e6-8f26-1a9325e0401e.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain-brazilian) :metal:
+
+**colorful**: a colorful version.
+
+```html
+<div class="loader loader-curtain is-active" colorful></div>
+```
+
+![loader-curtain-color](https://cloud.githubusercontent.com/assets/1345662/20083192/fd59f854-a541-11e6-97eb-6bd380ff5356.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain-colorful) :metal:
+
+**w/ custom text**: it's also possible customize the text loader. It's just pass the data attribute `curtain-text` with the value desired.
+
+```html
+<div class="loader loader-curtain is-active" colorful curtain-text="Hello"></div>
+```
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain-custom-text) :metal:
 
 ## Contributing
 

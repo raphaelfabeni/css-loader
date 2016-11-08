@@ -12,7 +12,8 @@ var cssFiles = [
   'src/loader-border.sass',
   'src/loader-ball.sass',
   'src/loader-clock.sass',
-  'src/loader-smartphone.sass'
+  'src/loader-smartphone.sass',
+  'src/loader-curtain.sass'
 ];
 
 gulp.task('serve', ['lint', 'sass'], function() {

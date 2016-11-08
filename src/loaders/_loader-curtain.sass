@@ -1,0 +1,84 @@
+// Loader curtain
+// ==========================================================================
+
+.loader-curtain
+
+  &:before,
+  &:after
+    position: fixed
+    width: 100%
+    top: 50%
+    margin-top: - $loader-mask--size / 2
+    font-size: $loader-mask--size
+    text-align: center
+    font-family: $font-loader
+    overflow: hidden
+    line-height: 1.2
+    content: 'Loading'
+
+  &:before
+    color: $loader-mask--color
+
+  &:after
+    color: $loader-mask--color-mask
+    height: 0
+    animation: curtain 1s linear infinite alternate both
+
+  &[curtain-text]:not([curtain-text = ''])
+    &:before,
+    &:after
+      content: attr(curtain-text)
+
+// Brazilian version
+.loader-curtain[brazilian]
+
+  &:before
+    color: $loader-mask--color-yellow
+
+  &:after
+    color: $loader-mask--color-green
+
+// Coloful version
+.loader-curtain[colorful]
+
+  &:before
+    animation: maskColorful 2s linear infinite alternate both
+
+  &:after
+    animation: curtain 1s linear infinite alternate both, maskColorful-front 2s 1s linear infinite alternate both
+    color: #000
+
+// Colorful animation
+@keyframes maskColorful
+  0%
+    color: $loader-mask--color-blue
+
+  49.5%
+    color: $loader-mask--color-blue
+
+  50.5%
+    color: $loader-mask--color-red
+
+  100%
+    color: $loader-mask--color-red
+
+@keyframes maskColorful-front
+  0%
+    color: $loader-mask--color-green
+
+  49.5%
+    color: $loader-mask--color-green
+
+  50.5%
+    color: $loader-mask--color-yellow
+
+  100%
+    color: $loader-mask--color-yellow
+
+// Curtain animation
+@keyframes curtain
+  0%
+    height: 0
+
+  100%
+    height: $loader-mask--size * 1.2
