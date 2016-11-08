@@ -150,6 +150,34 @@
     {
       button: document.getElementById('loader-clock'),
       className: 'loader-clock'
+    },
+    {
+      button: document.getElementById('loader-curtain'),
+      className: 'loader-curtain'
+    },
+    {
+      button: document.getElementById('loader-curtain-brazilian'),
+      className: 'loader-curtain',
+      attributes: [
+        { attribute: 'brazilian' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-curtain-colorful'),
+      className: 'loader-curtain',
+      attributes: [
+        { attribute: 'colorful' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-curtain-custom-text'),
+      className: 'loader-curtain',
+      attributes: [
+        {
+          attribute: 'curtain-text',
+          value: document.getElementById('curtain-custom-text')
+        }
+      ]
     }
   ];
 
