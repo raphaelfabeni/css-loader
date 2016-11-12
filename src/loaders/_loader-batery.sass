@@ -1,0 +1,30 @@
+.loader-batery
+  &:before
+    content: ''
+    width: 65px
+    height: 120px
+    background: #000
+    margin-left: -40px
+    box-shadow: inset 0 -22px 0 rgb(255, 0, 0)
+    border-radius: 7px
+    border: solid 2px rgba(125, 125, 125, 0.48)
+
+  &:after
+    content: ''
+    border-radius: 50%
+    width: 0
+    height: 0
+    border: solid 22px transparent
+    border-top-width: 14px
+    border-bottom-width: 15px
+    position: absolute
+    margin-left: -86px
+    margin-top: 80px
+    box-shadow: 50px 3px 0 2px rgb(255, 0, 0), 63px 5px 0 2px rgb(255, 0, 0)
+    animation: bounces infinite alternate linear 1s
+
+  &:after,
+  &:before
+    position: absolute
+    top: 50%;
+    left: 50%;
