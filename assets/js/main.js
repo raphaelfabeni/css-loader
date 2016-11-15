@@ -178,6 +178,34 @@
           value: document.getElementById('curtain-custom-text')
         }
       ]
+    },
+    {
+      button: document.getElementById('loader-music-hey-oh'),
+      className: 'loader-music',
+      attributes: [
+        { attribute: 'hey-oh' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-music-no-cry'),
+      className: 'loader-music',
+      attributes: [
+        { attribute: 'no-cry' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-music-we-are'),
+      className: 'loader-music',
+      attributes: [
+        { attribute: 'we-are' }
+      ]
+    },
+    {
+      button: document.getElementById('loader-music-rock-you'),
+      className: 'loader-music',
+      attributes: [
+        { attribute: 'rock-you' }
+      ]
     }
   ];
 
