@@ -23,6 +23,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [smartphone](#smartphone)
   * [clock](#clock)
   * [curtain](#curtain)
+  * [music](#music)
 * [Contributing](#contributing)
 * [Browser Support](#browser-support)
 
@@ -261,6 +262,56 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ```html
 <div class="loader loader-curtain is-active" colorful curtain-text="Hello"></div>
 ```
+
+### Music
+
+```html
+<div class="loader loader-music is-active" hey-oh></div>
+```
+
+This loader differs from the other because we have to pass an attribute to it, according to song's chorus that we want to load.
+
+#### Variations
+
+**hey-oh**: The classic [Hey! Oh! Let's Go!](https://www.youtube.com/watch?v=xuOnePNlOgY) from Ramones.
+
+```html
+<div class="loader loader-music is-active" hey-oh></div>
+```
+
+![loader-music-hey-oh](https://cloud.githubusercontent.com/assets/1345662/20288053/c3179248-aab7-11e6-8551-9819f523fbee.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-music-hey-oh) :metal:
+
+**no-cry**: [No woman no cry](https://www.youtube.com/watch?v=x59kS2AOrGM) from Bob Marley.
+
+```html
+<div class="loader loader-music is-active" no-cry></div>
+```
+
+![loader-music-no-woman](https://cloud.githubusercontent.com/assets/1345662/20288054/c3363950-aab7-11e6-882a-8fdecdca06d3.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-music-no-cry) :metal:
+
+**we-are**: [We are the world](https://www.youtube.com/watch?v=x59kS2AOrGM) from Michael Jackson.
+
+```html
+<div class="loader loader-music is-active" we-are></div>
+```
+
+![loader-music-we-are](https://cloud.githubusercontent.com/assets/1345662/20288055/c33fd910-aab7-11e6-8a0d-6cd303759c92.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-music-we-are) :metal:
+
+**rock-you**: [We will rock you](https://www.youtube.com/watch?v=-tJYN-eG1zk) from Queen.
+
+```html
+<div class="loader loader-music is-active" rock-you></div>
+```
+
+![loader-music-we-will](https://cloud.githubusercontent.com/assets/1345662/20288056/c344bf66-aab7-11e6-9adb-7fbc21bf1c09.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-music-rock-you) :metal:
 
 ## Contributing
 

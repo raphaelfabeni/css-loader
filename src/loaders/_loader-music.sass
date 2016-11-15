@@ -1,0 +1,172 @@
+$loader-new--size: 240px
+$loader-new--duration: 2.5s
+
+.loader-music
+
+  &:before,
+  &:after
+    content: ''
+    position: fixed
+    width: $loader-new--size
+    height: $loader-new--size
+    top: 50%
+    left: 50%
+    margin: (- $loader-new--size / 2) 0 0 (- $loader-new--size / 2)
+    border-radius: 50%
+    text-align: center
+    line-height: $loader-new--size
+    color: #fff
+    font-size: 40px
+    font-family: $font-loader
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5)
+    letter-spacing: -1px
+
+  &:after
+    backface-visibility: hidden
+
+  &[hey-oh]
+    &:before,
+    &:after
+      box-shadow: 0 0 0 10px
+
+    &:before
+      background-color: #fff
+      color: #000
+      animation: coinBack $loader-new--duration linear infinite, oh ($loader-new--duration * 2) ($loader-new--duration / 2) linear infinite both
+
+    &:after
+      background-color: #000
+      animation: coin $loader-new--duration linear infinite, hey ($loader-new--duration * 2) linear infinite both
+
+  &[no-cry]
+
+    &:before,
+    &:after
+      background: linear-gradient(45deg, #009b3a 50%, #fed100 51%)
+      box-shadow: 0 0 0 10px #000
+
+    &:before
+      animation: coinBack $loader-new--duration linear infinite, cry ($loader-new--duration * 2) ($loader-new--duration / 2) linear infinite both
+
+    &:after
+      animation: coin $loader-new--duration linear infinite, no ($loader-new--duration * 2) linear infinite both
+
+  &[we-are]
+
+    &:before
+      animation: coinBack $loader-new--duration linear infinite, theWorld ($loader-new--duration * 2) ($loader-new--duration / 2) linear infinite both
+      background: radial-gradient(ellipse at center, #4ecdc4 0%, #556270)
+
+    &:after
+      animation: coin $loader-new--duration linear infinite, weAre ($loader-new--duration * 2) linear infinite both
+      background: radial-gradient(ellipse at center, #26d0ce 0%, #1a2980)
+
+  &[rock-you]
+
+    &:before
+      animation: coinBack $loader-new--duration linear infinite, rockYou ($loader-new--duration * 2) ($loader-new--duration / 2) linear infinite both
+      background: #444
+
+    &:after
+      animation: coin $loader-new--duration linear infinite, weWill ($loader-new--duration * 2) linear infinite both
+      background: #96281b
+
+
+// Coin animations
+@keyframes coin
+  to
+    transform: rotateY(359deg)
+
+@keyframes coinBack
+  0%
+    transform: rotateY(180deg)
+
+  50%
+    transform: rotateY(360deg)
+
+  100%
+    transform: rotateY(180deg)
+
+// Hey Yo Animations
+@keyframes hey
+  0%
+    content: 'Hey!'
+
+  50%
+    content: 'Let\'s!'
+
+  100%
+    content: 'Hey!';
+
+@keyframes oh
+  0%
+    content: 'Oh!'
+
+  50%
+    content: 'Go!'
+
+  100%
+    content: 'Oh!'
+
+// No Woman, No Cry Animations
+@keyframes no
+  0%
+    content: 'No...'
+
+  50%
+    content: 'no'
+
+  100%
+    content: 'No...';
+
+@keyframes cry
+  0%
+    content: 'woman'
+
+  50%
+    content: 'cry!'
+
+  100%
+    content: 'woman'
+
+// We are the world animations
+@keyframes weAre
+  0%
+    content: 'We are'
+
+  50%
+    content: 'we are'
+
+  100%
+    content: 'We are';
+
+@keyframes theWorld
+  0%
+    content: 'the world,'
+
+  50%
+    content: 'the children!'
+
+  100%
+    content: 'the world,'
+
+// We will rock you animations
+@keyframes weWill
+  0%
+    content: 'We will,'
+
+  50%
+    content: 'rock you!'
+
+  100%
+    content: 'We will,';
+
+@keyframes rockYou
+  0%
+    content: 'we will'
+
+  50%
+    content: '🤘'
+
+  100%
+    content: 'we will';
