@@ -24,13 +24,13 @@
     height: 0
     animation: curtain 1s linear infinite alternate both
 
-  &[curtain-text]:not([curtain-text = ''])
+  &[data-curtain-text]:not([data-curtain-text = ''])
     &:before,
     &:after
-      content: attr(curtain-text)
+      content: attr(data-curtain-text)
 
 // Brazilian version
-.loader-curtain[brazilian]
+.loader-curtain[data-brazilian]
 
   &:before
     color: $loader-mask--color-yellow
@@ -39,7 +39,7 @@
     color: $loader-mask--color-green
 
 // Coloful version
-.loader-curtain[colorful]
+.loader-curtain[data-colorful]
 
   &:before
     animation: maskColorful 2s linear infinite alternate both
