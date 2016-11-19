@@ -11,14 +11,14 @@
       button: document.getElementById('loader-default-half'),
       className: 'loader-default',
       attributes: [
-        { attribute: 'half' }
+        { attribute: 'data-half' }
       ]
     },
     {
       button: document.getElementById('loader-default-blink'),
       className: 'loader-default',
       attributes: [
-        { attribute: 'blink' },
+        { attribute: 'data-blink' },
         { attribute: 'data-text' }
       ]
     },
@@ -26,7 +26,7 @@
       button: document.getElementById('loader-default-inverse'),
       className: 'loader-default',
       attributes: [
-        { attribute: 'inverse' }
+        { attribute: 'data-inverse' }
       ]
     },
     {
@@ -58,7 +58,7 @@
       button: document.getElementById('loader-bar-rounded'),
       className: 'loader-bar',
       attributes: [
-        { attribute: 'rounded' }
+        { attribute: 'data-rounded' }
       ]
     },
     {
@@ -72,7 +72,7 @@
       button: document.getElementById('loader-bar-blink'),
       className: 'loader-bar',
       attributes: [
-        { attribute: 'blink' },
+        { attribute: 'data-blink' },
         { attribute: 'data-text' }
       ]
     },
@@ -112,7 +112,7 @@
       className: 'loader-border',
       attributes: [
         { attribute: 'data-text' },
-        { attribute: 'blink' }
+        { attribute: 'data-blink' }
       ]
     },
     {
@@ -123,7 +123,7 @@
       button: document.getElementById('loader-ball-shadow'),
       className: 'loader-ball',
       attributes: [
-        { attribute: 'shadow' }
+        { attribute: 'data-shadow' }
       ]
     },
     {
@@ -159,14 +159,14 @@
       button: document.getElementById('loader-curtain-brazilian'),
       className: 'loader-curtain',
       attributes: [
-        { attribute: 'brazilian' }
+        { attribute: 'data-brazilian' }
       ]
     },
     {
       button: document.getElementById('loader-curtain-colorful'),
       className: 'loader-curtain',
       attributes: [
-        { attribute: 'colorful' }
+        { attribute: 'data-colorful' }
       ]
     },
     {
@@ -174,7 +174,7 @@
       className: 'loader-curtain',
       attributes: [
         {
-          attribute: 'curtain-text',
+          attribute: 'data-curtain-text',
           value: document.getElementById('curtain-custom-text')
         }
       ]
@@ -183,28 +183,28 @@
       button: document.getElementById('loader-music-hey-oh'),
       className: 'loader-music',
       attributes: [
-        { attribute: 'hey-oh' }
+        { attribute: 'data-hey-oh' }
       ]
     },
     {
       button: document.getElementById('loader-music-no-cry'),
       className: 'loader-music',
       attributes: [
-        { attribute: 'no-cry' }
+        { attribute: 'data-no-cry' }
       ]
     },
     {
       button: document.getElementById('loader-music-we-are'),
       className: 'loader-music',
       attributes: [
-        { attribute: 'we-are' }
+        { attribute: 'data-we-are' }
       ]
     },
     {
       button: document.getElementById('loader-music-rock-you'),
       className: 'loader-music',
       attributes: [
-        { attribute: 'rock-you' }
+        { attribute: 'data-rock-you' }
       ]
     }
   ];
