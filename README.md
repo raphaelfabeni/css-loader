@@ -85,10 +85,10 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 ![loader-data-text-custom](https://cloud.githubusercontent.com/assets/1345662/19313797/21e3fb22-906e-11e6-8f0a-11cc9c0fb8d2.gif)
 
-**blink**: passing the `blink` attribute, you can add a simple _fade_ animation to the text loader
+**blink**: passing the `data-blink` attribute, you can add a simple _fade_ animation to the text loader
 
 ```html
-<div class="loader loader-default is-active" data-text blink></div>
+<div class="loader loader-default is-active" data-text data-blink></div>
 ```
 
 ![loader-blink](https://cloud.githubusercontent.com/assets/1345662/19313798/25fa2830-906e-11e6-88d2-2f165a68cb80.gif)
@@ -101,7 +101,7 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-half) :metal:
 
-The variations _half_, _data-text_ and _blink_ work together. 😄
+The variations _data-half_, _data-text_ and _data-blink_ work together. 😄
 
 ### Double
 
@@ -132,17 +132,17 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <!-- -->
 <div class="loader loader-bar is-active" data-text="Custom text"></div>
 <!-- -->
-<div class="loader loader-bar is-active" data-text blink></div>
+<div class="loader loader-bar is-active" data-text data-blink></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-text) :metal:
 
-**rounded**: passing the `rounded` attribute, it's possible to add a simple `border-radius` to the loader.
+**rounded**: passing the `data-rounded` attribute, it's possible to add a simple `border-radius` to the loader.
 
 ![loader-bar-rounded](https://cloud.githubusercontent.com/assets/1345662/19315031/ab850700-9072-11e6-9cd4-9fe899f05a10.gif)
 
 ```html
-<div class="loader loader-bar is-active" data-text rounded></div>
+<div class="loader loader-bar is-active" data-text data-rounded></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-rounded) :metal:
@@ -166,7 +166,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <!-- -->
 <div class="loader loader-border is-active" data-text="Custom text"></div>
 <!-- -->
-<div class="loader loader-border is-active" data-text blink></div>
+<div class="loader loader-border is-active" data-text data-blink></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-border-text) :metal:
@@ -186,6 +186,10 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 **shadow**: a version of the ball with inset shadow.
 
 ![loader-ball-shadow](https://cloud.githubusercontent.com/assets/1345662/19502619/06f1c906-958d-11e6-87c9-d64b13688485.gif)
+
+```html
+<div class="loader loader-ball is-active" data-shadow></div>
+```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball-shadow) :metal:
 
@@ -240,7 +244,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 **brazilian**: a simple version using the traditional brazilian green and yellow. :brazil:
 
 ```html
-<div class="loader loader-curtain is-active" brazilian></div>
+<div class="loader loader-curtain is-active" data-brazilian></div>
 ```
 
 ![loader-curtain-br](https://cloud.githubusercontent.com/assets/1345662/20083191/fd5596c4-a541-11e6-8f26-1a9325e0401e.gif)
@@ -250,23 +254,23 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 **colorful**: a colorful version.
 
 ```html
-<div class="loader loader-curtain is-active" colorful></div>
+<div class="loader loader-curtain is-active" data-colorful></div>
 ```
 
 ![loader-curtain-color](https://cloud.githubusercontent.com/assets/1345662/20083192/fd59f854-a541-11e6-97eb-6bd380ff5356.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain-colorful) :metal:
 
-**w/ custom text**: it's also possible customize the text loader. It's just pass the data attribute `curtain-text` with the value desired.
+**w/ custom text**: it's also possible customize the text loader. It's just pass the data attribute `data-curtain-text` with the value desired.
 
 ```html
-<div class="loader loader-curtain is-active" colorful curtain-text="Hello"></div>
+<div class="loader loader-curtain is-active" colorful data-curtain-text="Hello"></div>
 ```
 
 ### Music
 
 ```html
-<div class="loader loader-music is-active" hey-oh></div>
+<div class="loader loader-music is-active" data-hey-oh></div>
 ```
 
 This loader differs from the other because we have to pass an attribute to it, according to song's chorus that we want to load.
@@ -276,7 +280,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 **hey-oh**: The classic [Hey! Oh! Let's Go!](https://www.youtube.com/watch?v=xuOnePNlOgY) from Ramones.
 
 ```html
-<div class="loader loader-music is-active" hey-oh></div>
+<div class="loader loader-music is-active" data-hey-oh></div>
 ```
 
 ![loader-music-hey-oh](https://cloud.githubusercontent.com/assets/1345662/20288053/c3179248-aab7-11e6-8551-9819f523fbee.gif)
@@ -286,7 +290,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 **no-cry**: [No woman no cry](https://www.youtube.com/watch?v=x59kS2AOrGM) from Bob Marley.
 
 ```html
-<div class="loader loader-music is-active" no-cry></div>
+<div class="loader loader-music is-active" data-no-cry></div>
 ```
 
 ![loader-music-no-woman](https://cloud.githubusercontent.com/assets/1345662/20288054/c3363950-aab7-11e6-882a-8fdecdca06d3.gif)
@@ -296,7 +300,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 **we-are**: [We are the world](https://www.youtube.com/watch?v=x59kS2AOrGM) from Michael Jackson.
 
 ```html
-<div class="loader loader-music is-active" we-are></div>
+<div class="loader loader-music is-active" data-we-are></div>
 ```
 
 ![loader-music-we-are](https://cloud.githubusercontent.com/assets/1345662/20288055/c33fd910-aab7-11e6-8a0d-6cd303759c92.gif)
@@ -306,7 +310,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 **rock-you**: [We will rock you](https://www.youtube.com/watch?v=-tJYN-eG1zk) from Queen.
 
 ```html
-<div class="loader loader-music is-active" rock-you></div>
+<div class="loader loader-music is-active" data-rock-you></div>
 ```
 
 ![loader-music-we-will](https://cloud.githubusercontent.com/assets/1345662/20288056/c344bf66-aab7-11e6-9adb-7fbc21bf1c09.gif)
