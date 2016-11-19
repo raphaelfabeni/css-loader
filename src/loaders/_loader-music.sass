@@ -24,7 +24,7 @@ $loader-new--duration: 2.5s
   &:after
     backface-visibility: hidden
 
-  &[hey-oh]
+  &[data-hey-oh]
     &:before,
     &:after
       box-shadow: 0 0 0 10px
@@ -38,7 +38,7 @@ $loader-new--duration: 2.5s
       background-color: #000
       animation: coin $loader-new--duration linear infinite, hey ($loader-new--duration * 2) linear infinite both
 
-  &[no-cry]
+  &[data-no-cry]
 
     &:before,
     &:after
@@ -51,7 +51,7 @@ $loader-new--duration: 2.5s
     &:after
       animation: coin $loader-new--duration linear infinite, no ($loader-new--duration * 2) linear infinite both
 
-  &[we-are]
+  &[data-we-are]
 
     &:before
       animation: coinBack $loader-new--duration linear infinite, theWorld ($loader-new--duration * 2) ($loader-new--duration / 2) linear infinite both
@@ -61,7 +61,7 @@ $loader-new--duration: 2.5s
       animation: coin $loader-new--duration linear infinite, weAre ($loader-new--duration * 2) linear infinite both
       background: radial-gradient(ellipse at center, #26d0ce 0%, #1a2980)
 
-  &[rock-you]
+  &[data-rock-you]
 
     &:before
       animation: coinBack $loader-new--duration linear infinite, rockYou ($loader-new--duration * 2) ($loader-new--duration / 2) linear infinite both

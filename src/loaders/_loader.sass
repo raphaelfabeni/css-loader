@@ -19,12 +19,10 @@
     left: calc(50% - #{$loader--size / 2})
     animation: rotation 1s linear infinite
 
-  // Half
-  &[half]
+  &[data-half]
     &:after
       border-right-color: transparent
 
-// Inverse
-  &[inverse]
+  &[data-inverse]
     &:after
       animation-direction: reverse
