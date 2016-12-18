@@ -323,6 +323,8 @@ This loader differs from the other because we have to pass an attribute to it, a
 2. `npm install` and `gulp`
 3. Open => `http://localhost:3000`
 4. Make your magic contribution.
+5. Run `gulp lint` to run the tests (Fix if have some errors; more info in `.sass-lint.yml`).
+6. Run `gulp build` to create/update the dist files.
 5. Open a _PR_ with a new branch describing your changes. <o/
 
 ## Browser Support
