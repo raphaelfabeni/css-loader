@@ -5,7 +5,7 @@
   "description": "Simple loaders for your web applications using only one div and pure CSS ♥.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp lint"
   },
   "author": "Raphael Fabeni",
   "license": "MIT",
