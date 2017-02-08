@@ -1,0 +1,54 @@
+// Loader pokeball
+// ==========================================================================
+.loader-pokeball
+
+  &:before
+    content: ''
+    position: absolute
+    width: 100px
+    height: 100px
+    top: 50%
+    left: 50%
+    margin: -50px 0 0 -50px
+    background: linear-gradient(to bottom, #f00 42%, #000 42%, #000 58%, #fff 58%)
+    background-repeat: no-repeat
+    background-color: #fff
+    border-radius: 50%
+    z-index: 1
+    animation: movePokeball 1s linear infinite both
+
+  &:after
+    content: ''
+    position: absolute
+    width: 24px
+    height: 24px
+    top: 50%
+    left: 50%
+    margin: -12px 0 0 -12px
+    background-color: #fff
+    border-radius: 50%
+    z-index: 2
+    animation: movePokeball 1s linear infinite both, flashPokeball .5s infinite alternate
+    border: solid 2px #000
+    box-shadow: 0 0 0 5px #fff, 0 0 0 10px #000
+
+@keyframes movePokeball
+  0%
+    transform: translateX(0) rotate(0)
+
+  15%
+    transform: translatex(-10px) rotate(-5deg)
+
+  30%
+    transform: translateX(10px) rotate(5deg)
+
+  45%
+    transform: translatex(0) rotate(0)
+
+
+@keyframes flashPokeball
+  0%
+    background-color: #fff
+
+  100%
+    background-color: #fd0
