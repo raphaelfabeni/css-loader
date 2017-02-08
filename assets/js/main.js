@@ -206,6 +206,10 @@
       attributes: [
         { attribute: 'data-rock-you' }
       ]
+    },
+    {
+      button: document.getElementById('loader-pokeball'),
+      className: 'loader-pokeball'
     }
   ];
 
