@@ -24,6 +24,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [clock](#clock)
   * [curtain](#curtain)
   * [music](#music)
+  * [pokeball](#pokeball)
 * [Contributing](#contributing)
 * [Browser Support](#browser-support)
 
@@ -323,7 +324,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 <div class="loader loader-pokeball is-active"></div>
 ```
 
-![loader-pokeball](https://cloud.githubusercontent.com/assets/1345662/22757019/6208046c-ee30-11e6-87c9-5c69f89201c3.gif)
+![loader-pokeball](https://cloud.githubusercontent.com/assets/1345662/22757245/3ddfc9d4-ee31-11e6-97e3-5d7221542e2e.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-pokeball) :metal:
 
