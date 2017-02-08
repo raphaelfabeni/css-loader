@@ -24,6 +24,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [clock](#clock)
   * [curtain](#curtain)
   * [music](#music)
+  * [pokeball](#pokeball)
 * [Contributing](#contributing)
 * [Browser Support](#browser-support)
 
