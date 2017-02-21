@@ -12,6 +12,7 @@
   &:after,
   &:before
     box-sizing: border-box
+    display: none
 
   &.is-active
     background-color: $bg-loader
@@ -19,3 +20,7 @@
     height: 100%
     left: 0
     top: 0
+
+    &:after,
+    &:before
+      display: block
