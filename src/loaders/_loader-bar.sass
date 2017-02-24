@@ -19,12 +19,15 @@
     background: linear-gradient( -45deg, $loader-bar--color-secondary 25%, $loader-bar--color 25%, $loader-bar--color 50%, $loader-bar--color-secondary 50%, $loader-bar--color-secondary 75%, $loader-bar--color 75%, $loader-bar--color)
     background-size: 20px 20px
     box-shadow: inset 0 10px 0 rgba(255, 255, 255, .2), 0 0 0 5px rgba(0, 0, 0, .2)
-    animation: moveBar 1.5s linear infinite
+    animation: moveBar 1.5s linear infinite reverse
 
-  // Rounded version
   &[data-rounded]
     &:after
       border-radius: 15px
+
+  &[data-inverse]
+    &:after
+      animation-direction: normal
 
 // Animation for bars
 @keyframes moveBar
