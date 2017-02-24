@@ -120,7 +120,7 @@ The variations _data-half_, _data-text_ and _data-blink_ work together. 😄
 <div class="loader loader-bar is-active"></div>
 ```
 
-![loader-bar](https://cloud.githubusercontent.com/assets/1345662/19314685/6d719056-9071-11e6-88c8-2c3750ca0198.gif)
+![loader-bar-updated](https://cloud.githubusercontent.com/assets/1345662/23286931/5eae58a8-fa19-11e6-8718-ae28d633ed1e.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar) :metal:
 
@@ -131,6 +131,8 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ```html
 <div class="loader loader-bar is-active" data-text></div>
 <!-- -->
+<div class="loader loader-bar is-active" data-inverse></div>
+<!-- -->
 <div class="loader loader-bar is-active" data-text="Custom text"></div>
 <!-- -->
 <div class="loader loader-bar is-active" data-text data-blink></div>
@@ -140,13 +142,25 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 **rounded**: passing the `data-rounded` attribute, it's possible to add a simple `border-radius` to the loader.
 
-![loader-bar-rounded](https://cloud.githubusercontent.com/assets/1345662/19315031/ab850700-9072-11e6-9cd4-9fe899f05a10.gif)
+![loader-bar-rounded-updated](https://cloud.githubusercontent.com/assets/1345662/23287022/abe16980-fa19-11e6-87c3-c7a4c28e7bb5.gif)
 
 ```html
 <div class="loader loader-bar is-active" data-text data-rounded></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-rounded) :metal:
+
+**inverse**: passing the `data-inverse` attribute, it's possible change the direction of the animation (from left to right).
+
+![loader-bar](https://cloud.githubusercontent.com/assets/1345662/19314685/6d719056-9071-11e6-88c8-2c3750ca0198.gif)
+
+```html
+<div class="loader loader-bar is-active" data-inverse></div>
+```
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-inverse) :metal:
+
+*Obs*. It's also possible pass a parameter `data-text` with a content value that will show as a text loader, or with no value, and the default *loading* text  it's going to show instead.
 
 ### Border
 

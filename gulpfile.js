@@ -9,6 +9,7 @@ var cssFiles = [
   'src/css-loader.sass',
   'src/loader-default.sass',
   'src/loader-double.sass',
+  'src/loader-bar.sass',
   'src/loader-border.sass',
   'src/loader-ball.sass',
   'src/loader-clock.sass',
