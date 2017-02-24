@@ -62,6 +62,13 @@
       ]
     },
     {
+      button: document.getElementById('loader-bar-inverse'),
+      className: 'loader-bar',
+      attributes: [
+        { attribute: 'data-inverse' }
+      ]
+    },
+    {
       button: document.getElementById('loader-bar-text'),
       className: 'loader-bar',
       attributes: [
