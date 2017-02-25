@@ -10,6 +10,7 @@ var cssFiles = [
   'src/loader-default.sass',
   'src/loader-double.sass',
   'src/loader-bar.sass',
+  'src/loader-bar-ping-pong.sass',
   'src/loader-border.sass',
   'src/loader-ball.sass',
   'src/loader-clock.sass',
@@ -32,7 +33,7 @@ gulp.task('serve', ['lint', 'sass'], function() {
 gulp.task('lint', function () {
   return gulp.src('src/**/*.s+(a|c)ss')
     .pipe(sassLint({
-      config: '.sass-lint.yml' 
+      config: '.sass-lint.yml'
     }))
     .pipe(sassLint.format())
     .pipe(sassLint.failOnError())

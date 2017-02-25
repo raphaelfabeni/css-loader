@@ -1,0 +1,32 @@
+// Loader bar
+// ==========================================================================
+
+.loader-bar-ping-pong
+  &:before
+    content: ''
+    width: 200px
+    height: 20px
+    position: absolute
+    top: calc(50% - 10px)
+    left: calc(50% - 100px)
+    background-color: #000
+
+  &:after
+    content: ''
+    width: 50px
+    height: 20px
+    position: absolute
+    top: calc(50% - 10px)
+    left: calc(50% - 100px)
+    background-color: #ff1493
+    animation: moveBarPingPong 1s linear infinite
+
+@keyframes moveBarPingPong
+  0%
+    left: calc(50% - 100px)
+
+  50%
+    left: calc(50% - -50px)
+
+  100%
+    left: calc(50% - 100px)
