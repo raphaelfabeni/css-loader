@@ -56,7 +56,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 
 ## Examples
 
-### Default
+### Default | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
 
 ```html
 <div class="loader loader-default is-active"></div>
@@ -102,9 +102,9 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-default-half) :metal:
 
-The variations _data-half_, _data-text_ and _data-blink_ work together. 😄
+The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 
-### Double
+### Double  | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-double.css) :sparkles:
 
 ```html
 <div class="loader loader-double is-active"></div>
@@ -114,7 +114,7 @@ The variations _data-half_, _data-text_ and _data-blink_ work together. 😄
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-double) :metal:
 
-### Bar
+### Bar  | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar.css) :sparkles:
 
 ```html
 <div class="loader loader-bar is-active"></div>
@@ -162,7 +162,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 *Obs*. It's also possible pass a parameter `data-text` with a content value that will show as a text loader, or with no value, and the default *loading* text  it's going to show instead.
 
-### Border
+### Border | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-border.css) :sparkles:
 
 ![loader-border](https://cloud.githubusercontent.com/assets/1345662/19314686/6d733622-9071-11e6-8167-a55e6c16a02f.gif)
 
@@ -186,7 +186,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-border-text) :metal:
 
-### Ball
+### Ball | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
 
 ```html
 <div class="loader loader-ball is-active"></div>
@@ -208,7 +208,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball-shadow) :metal:
 
-### Smartphone
+### Smartphone | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-smartphone.css) :sparkles:
 
 ```html
 <div class="loader loader-smartphone is-active"></div>
@@ -234,7 +234,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone-text) :metal:
 
-### Clock
+### Clock | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-clock.css) :sparkles:
 
 ```html
 <div class="loader loader-clock is-active"></div>
@@ -244,7 +244,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-clock) :metal:
 
-### Curtain
+### Curtain | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-curtain.css) :sparkles:
 
 ```html
 <div class="loader loader-curtain is-active"></div>
@@ -282,7 +282,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-curtain is-active" colorful data-curtain-text="Hello"></div>
 ```
 
-### Music
+### Music | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-music.css) :sparkles:
 
 ```html
 <div class="loader loader-music is-active" data-hey-oh></div>
@@ -332,7 +332,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-music-rock-you) :metal:
 
-### Pokeball
+### Pokeball | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-pokeball.css) :sparkles:
 
 ```html
 <div class="loader loader-pokeball is-active"></div>
@@ -356,7 +356,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 
 All examples use CSS _animation_ which is supported by [most current browsers](http://caniuse.com/#search=animation).
 
-| <img src="https://github.com/alrra/browser-logos/blob/master/chrome/chrome_128x128.png?raw=true" width="48px" height="48px" alt="Chrome logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/firefox/firefox_128x128.png?raw=true" width="48px" height="48px" alt="Firefox logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/internet-explorer/internet-explorer_128x128.png?raw=true" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/opera/opera_128x128.png?raw=true" width="48px" height="48px" alt="Opera logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/safari/safari_128x128.png?raw=true" width="48px" height="48px" alt="Safari logo"> | <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/android/android_128x128.png" width="48px" height="48px" alt="Android Browser Logo" >
+| <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_128x128.png" width="48px" height="48px" alt="Chrome logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/src/firefox/firefox_128x128.png?raw=true" width="48px" height="48px" alt="Firefox logo"> | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/40.2.1/archive/internet-explorer_9-11/internet-explorer_9-11_128x128.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/src/opera/opera_128x128.png?raw=true" width="48px" height="48px" alt="Opera logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/src/safari/safari_128x128.png?raw=true" width="48px" height="48px" alt="Safari logo"> | <img src="https://github.com/alrra/browser-logos/blob/master/src/android/android_128x128.png?raw=true" width="48px" height="48px" alt="Android Browser Logo" >
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | 43+ ✔ | 16+ ✔ | 10+ ✔ | 30+ ✔ | 9+ ✔ | 5.2+ ✔
 
