@@ -164,7 +164,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 *Obs*. It's also possible pass a parameter `data-text` with a content value that will show as a text loader, or with no value, and the default *loading* text  it's going to show instead.
 
-![loader-bar](https://cloud.githubusercontent.com/assets/1345662/19314685/6d719056-9071-11e6-88c8-2c3750ca0198.gif)
+![loader-bar-ping-pong](http://henriquemelanda.com.br/gif/bar-ping-pong.gif)
 
 ```html
 <div class="loader loader-bar-ping-pong is-active"></div>
