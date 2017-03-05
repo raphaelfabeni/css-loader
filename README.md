@@ -114,7 +114,7 @@ The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-double) :metal:
 
-### Bar  | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar.css) :sparkles:
+### Bar | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar.css) :sparkles:
 
 ```html
 <div class="loader loader-bar is-active"></div>
@@ -136,8 +136,6 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-bar is-active" data-text="Custom text"></div>
 <!-- -->
 <div class="loader loader-bar is-active" data-text data-blink></div>
-<!-- -->
-<div class="loader loader-bar-ping-pong is-active"></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-text) :metal:
@@ -163,6 +161,28 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-inverse) :metal:
 
 *Obs*. It's also possible pass a parameter `data-text` with a content value that will show as a text loader, or with no value, and the default *loading* text  it's going to show instead.
+
+### Bar Ping Pong | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar-ping-pong.css) :sparkles:
+
+![loader-bar-ping-pong](https://cloud.githubusercontent.com/assets/1345662/23591096/deed9e04-01c9-11e7-9d5f-356fa249ff00.gif)
+
+```html
+<div class="loader loader-bar-ping-pong is-active"></div>
+```
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-ping-pong) :metal:
+
+#### Variations
+
+**rounded**: passing the `data-rounded` attribute, it's possible to add a `border-radius` to the bar and the _ticker_ transforms into a circle.
+
+![loader-bar-ping-pong-rounded](https://cloud.githubusercontent.com/assets/1345662/23591095/deea37e6-01c9-11e7-81e3-86f866a94d40.gif)
+
+```html
+<div class="loader loader-bar-ping-pong is-active" data-text data-rounded></div>
+```
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-ping-pong-rounded) :metal:
 
 ### Border | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-border.css) :sparkles:
 
