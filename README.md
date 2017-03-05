@@ -179,7 +179,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 ![loader-bar-ping-pong-rounded](https://cloud.githubusercontent.com/assets/1345662/23591095/deea37e6-01c9-11e7-81e3-86f866a94d40.gif)
 
 ```html
-<div class="loader loader-bar-ping-pong is-active" data-text data-rounded></div>
+<div class="loader loader-bar-ping-pong is-active" data-rounded></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-ping-pong-rounded) :metal:
