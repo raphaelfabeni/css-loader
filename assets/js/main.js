@@ -94,6 +94,17 @@
       ]
     },
     {
+      button: document.getElementById('loader-bar-ping-pong'),
+      className: 'loader-bar-ping-pong'
+    },
+    {
+      button: document.getElementById('loader-bar-ping-pong-rounded'),
+      className: 'loader-bar-ping-pong',
+      attributes: [
+        { attribute: 'data-rounded' }
+      ]
+    },
+    {
       button: document.getElementById('loader-border'),
       className: 'loader-border'
     },
