@@ -18,6 +18,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [default](#default)
   * [double](#double)
   * [bar](#bar)
+  * [bar ping pong](#bar-ping-pong)
   * [border](#border)
   * [ball](#ball)
   * [smartphone](#smartphone)
@@ -56,7 +57,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 
 ## Examples
 
-### Default | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
+### Default
 
 ```html
 <div class="loader loader-default is-active"></div>
@@ -64,7 +65,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 
 ![loader](https://cloud.githubusercontent.com/assets/1345662/19313531/2c715f18-906d-11e6-856a-17ca264112de.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
 
 #### Variations
 
@@ -104,7 +105,7 @@ It's also possible to change the text, just passing a value to the attribute `da
 
 The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 
-### Double  | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-double.css) :sparkles:
+### Double
 
 ```html
 <div class="loader loader-double is-active"></div>
@@ -112,7 +113,7 @@ The variations _data-half_, _data-text_ and _data-blink_ works together. 😄
 
 ![loader-double](https://cloud.githubusercontent.com/assets/1345662/19314508/c2279a06-9070-11e6-8079-4fa82b5f2610.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-double) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-double) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-double.css) :sparkles:
 
 ### Bar | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar.css) :sparkles:
 
@@ -162,7 +163,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 *Obs*. It's also possible pass a parameter `data-text` with a content value that will show as a text loader, or with no value, and the default *loading* text  it's going to show instead.
 
-### Bar Ping Pong | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar-ping-pong.css) :sparkles:
+### Bar Ping Pong
 
 ![loader-bar-ping-pong](https://cloud.githubusercontent.com/assets/1345662/23591096/deed9e04-01c9-11e7-9d5f-356fa249ff00.gif)
 
@@ -170,7 +171,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-bar-ping-pong is-active"></div>
 ```
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-ping-pong) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-ping-pong) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-bar-ping-pong.css) :sparkles:
 
 #### Variations
 
@@ -184,7 +185,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-ping-pong-rounded) :metal:
 
-### Border | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-border.css) :sparkles:
+### Border
 
 ![loader-border](https://cloud.githubusercontent.com/assets/1345662/19314686/6d733622-9071-11e6-8167-a55e6c16a02f.gif)
 
@@ -192,7 +193,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-border is-active"></div>
 ```
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-border) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-border) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-border.css) :sparkles:
 
 #### Variations
 
@@ -208,7 +209,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-border-text) :metal:
 
-### Ball | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
+### Ball
 
 ```html
 <div class="loader loader-ball is-active"></div>
@@ -216,7 +217,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 ![loader-ball](https://cloud.githubusercontent.com/assets/1345662/19314687/6d771ff8-9071-11e6-8839-713066f11056.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
 
 #### Variations
 
@@ -230,7 +231,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-ball-shadow) :metal:
 
-### Smartphone | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-smartphone.css) :sparkles:
+### Smartphone
 
 ```html
 <div class="loader loader-smartphone is-active"></div>
@@ -238,7 +239,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 ![loader-smartphone-empty](https://cloud.githubusercontent.com/assets/1345662/19544262/83cd4b42-965c-11e6-9238-91a48f0d5cf5.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-smartphone.css) :sparkles:
 
 #### Variations
 
@@ -256,7 +257,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-smartphone-text) :metal:
 
-### Clock | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-clock.css) :sparkles:
+### Clock
 
 ```html
 <div class="loader loader-clock is-active"></div>
@@ -264,9 +265,9 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 ![loader-clock](https://cloud.githubusercontent.com/assets/1345662/19628192/f09d9a88-9936-11e6-8a2c-de22df0f820b.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-clock) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-clock) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-clock.css) :sparkles:
 
-### Curtain | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-curtain.css) :sparkles:
+### Curtain
 
 ```html
 <div class="loader loader-curtain is-active"></div>
@@ -274,7 +275,7 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 
 ![loader-curtain-default](https://cloud.githubusercontent.com/assets/1345662/20083193/fd7043fc-a541-11e6-8f86-e08cbb2c02c2.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-curtain) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-curtain.css) :sparkles:
 
 #### Variations
 
@@ -304,13 +305,15 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-curtain is-active" colorful data-curtain-text="Hello"></div>
 ```
 
-### Music | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-music.css) :sparkles:
+### Music
 
 ```html
 <div class="loader loader-music is-active" data-hey-oh></div>
 ```
 
 This loader differs from the other because we have to pass an attribute to it, according to song's chorus that we want to load.
+
+[CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-music.css) :sparkles:
 
 #### Variations
 
@@ -354,7 +357,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-music-rock-you) :metal:
 
-### Pokeball | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-pokeball.css) :sparkles:
+### Pokeball
 
 ```html
 <div class="loader loader-pokeball is-active"></div>
@@ -362,7 +365,7 @@ This loader differs from the other because we have to pass an attribute to it, a
 
 ![loader-pokeball](https://cloud.githubusercontent.com/assets/1345662/22757245/3ddfc9d4-ee31-11e6-97e3-5d7221542e2e.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-pokeball) :metal:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-pokeball) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-pokeball.css) :sparkles:
 
 ## Contributing
 
