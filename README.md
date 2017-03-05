@@ -136,6 +136,8 @@ Like the `loader` example, it's also possible to pass the `data-text` and `blink
 <div class="loader loader-bar is-active" data-text="Custom text"></div>
 <!-- -->
 <div class="loader loader-bar is-active" data-text data-blink></div>
+<!-- -->
+<div class="loader loader-bar-ping-pong is-active"></div>
 ```
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-bar-text) :metal:
@@ -365,4 +367,3 @@ Based on _Can i Use_. One thing to note is that the CSS file has no browser pref
 ## License
 
 [MIT License](https://raphaelfabeni.mit-license.org/) © Raphael Fabeni
-
