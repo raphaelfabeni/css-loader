@@ -1,5 +1,7 @@
 # CSS loader
 
+[![CDNJS](https://img.shields.io/cdnjs/v/css-loader.svg)](https://cdnjs.com/libraries/css-loader)
+
 > A few simple examples of loaders using only one `div` and *CSS*.
 
 ![loader-g](https://cloud.githubusercontent.com/assets/1345662/19414412/5e472d6c-9322-11e6-9407-5e3662072aee.gif)
