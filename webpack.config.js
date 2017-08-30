@@ -1,4 +1,5 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
+var LiveReloadPlugin = require('webpack-livereload-plugin')
 var SassLintPlugin = require('sasslint-webpack-plugin')
 var path = require('path')
 
@@ -44,7 +45,8 @@ module.exports = {
       failOnWarning: true,
       failOnError: true
     }),
-    new ExtractTextPlugin('[name].css')
+    new ExtractTextPlugin('[name].css'),
+    new LiveReloadPlugin()
   ],
   devServer: {
     contentBase: [
