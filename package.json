@@ -21,6 +21,7 @@
     "sasslint-webpack-plugin": "^1.0.4",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "webpack-dev-server": "^2.7.1",
+    "webpack-livereload-plugin": "^0.11.0"
   }
 }
