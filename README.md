@@ -28,6 +28,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [curtain](#curtain)
   * [music](#music)
   * [pokeball](#pokeball)
+  * [bouncing](#bouncing)
 * [Contributing](#contributing)
 * [Browser Support](#browser-support)
 
@@ -38,6 +39,10 @@ npm install pure-css-loader
 ```
 
 Also you can clone the repository or [download the zip file](https://github.com/raphaelfabeni/css-loader/archive/master.zip) and get the main *CSS* file that is located in: `dist/css-loader.css`.
+
+## Thanks
+
+Thanks for all this [amazing people](https://github.com/raphaelfabeni/css-loader/graphs/contributors) who already helped me with the project.
 
 ## Setup
 
