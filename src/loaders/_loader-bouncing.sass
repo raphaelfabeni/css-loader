@@ -1,0 +1,33 @@
+// Loader bouncing
+// ==========================================================================
+
+.loader-bouncing
+
+  &:before,
+  &:after
+    content: ''
+    width: 20px
+    height: 20px
+    position: absolute
+    top: calc(50% - 10px)
+    left: calc(50% - 10px)
+    border-radius: 50%
+    background-color: $loader-bouncing--color
+    animation: kick 0.6s infinite alternate
+
+  &:after
+    margin-left: -30px
+    animation: kick 0.6s infinite alternate
+
+  &:before
+    animation-delay: 0.2s
+
+@keyframes kick
+  from
+    opacity: 1
+    transform: translateY(0)
+
+  to
+    opacity: .3
+    transform: translateY(-1rem)
+

@@ -369,6 +369,16 @@ This loader differs from the other because we have to pass an attribute to it, a
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-pokeball) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-pokeball.css) :sparkles:
 
+### Bouncing
+
+```html
+<div class="loader loader-bouncing is-active"></div>
+```
+
+![loader-bouncing](https://user-images.githubusercontent.com/397832/37002847-ca80f236-20a9-11e8-9bd0-246c5c7f980e.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bouncing) :metal:
+
 ## Contributing
 
 1. Clone this repository.
