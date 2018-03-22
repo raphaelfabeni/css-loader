@@ -18,7 +18,8 @@ module.exports = {
     'loader-smartphone': path.resolve(__dirname, 'src/loader-smartphone.sass'),
     'loader-curtain': path.resolve(__dirname, 'src/loader-curtain.sass'),
     'loader-music': path.resolve(__dirname, 'src/loader-music.sass'),
-    'loader-pokeball': path.resolve(__dirname, 'src/loader-pokeball.sass')
+    'loader-pokeball': path.resolve(__dirname, 'src/loader-pokeball.sass'),
+    'loader-bouncing': path.resolve(__dirname, 'src/loader-bouncing.sass')
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

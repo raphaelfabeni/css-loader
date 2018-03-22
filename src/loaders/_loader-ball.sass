@@ -13,7 +13,7 @@
     background-color: $loader-ball--color
     border-radius: 50%
     z-index: 1
-    animation: kick 1s infinite alternate ease-in both
+    animation: kickBall 1s infinite alternate ease-in both
 
   &[data-shadow]:before
     box-shadow: -5px -5px 10px 0 $loader-ball--shadow inset
@@ -48,7 +48,7 @@
     background-color: rgba(0, 0, 0, .75)
     transform: scale(1)
 
-@keyframes kick
+@keyframes kickBall
   0%
     transform: translateY(-80px) scaleX(.95)
 

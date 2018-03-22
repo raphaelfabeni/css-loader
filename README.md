@@ -28,6 +28,7 @@ It's usually common to show a loader to users when they must wait for something 
   * [curtain](#curtain)
   * [music](#music)
   * [pokeball](#pokeball)
+  * [bouncing](#bouncing)
 * [Contributing](#contributing)
 * [Browser Support](#browser-support)
 
@@ -38,6 +39,10 @@ npm install pure-css-loader
 ```
 
 Also you can clone the repository or [download the zip file](https://github.com/raphaelfabeni/css-loader/archive/master.zip) and get the main *CSS* file that is located in: `dist/css-loader.css`.
+
+## Thanks
+
+Thanks for all this [amazing people](https://github.com/raphaelfabeni/css-loader/graphs/contributors) who already helped me with the project.
 
 ## Setup
 
@@ -368,6 +373,16 @@ This loader differs from the other because we have to pass an attribute to it, a
 ![loader-pokeball](https://cloud.githubusercontent.com/assets/1345662/22757245/3ddfc9d4-ee31-11e6-97e3-5d7221542e2e.gif)
 
 [See it](http://raphaelfabeni.com.br/css-loader/#/loader-pokeball) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-pokeball.css) :sparkles:
+
+### Bouncing
+
+```html
+<div class="loader loader-bouncing is-active"></div>
+```
+
+![loader-bouncing](https://user-images.githubusercontent.com/397832/37002847-ca80f236-20a9-11e8-9bd0-246c5c7f980e.gif)
+
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-bouncing) :metal:
 
 ## Contributing
 
