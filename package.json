@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "browser-sync start --server",
     "build:css": "cleancss -o ./dist/main.min.css ./assets/css/main.css",
-    "build:js": "uglifyjs ./assets/js/main.js > ./dist/main.min.js",
+    "build:js": "./node_modules/uglify-js/bin/uglifyjs ./assets/js/main.js > ./dist/main.min.js",
     "build": "npm run build:css && npm run build:js",
     "watch:css": "watchy -w ./assets/css/main.css -- npm run build:css",
     "watch:js": "watchy -w ./assets/js/main.js -- npm run build:js",
@@ -24,5 +24,8 @@
     "clean-css": "^3.4.20",
     "uglify-js": "^2.7.3",
     "watchy": "^0.6.6"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.8.29"
   }
 }

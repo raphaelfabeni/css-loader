@@ -139,6 +139,7 @@ body {
 
 /* Buttons */
 .button {
+  cursor: pointer;
   display: inline-block;
   border: none;
   background-color: #1abc9c;

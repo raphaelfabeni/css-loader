@@ -145,6 +145,10 @@
       ]
     },
     {
+      button: document.getElementById('loader-bouncing'),
+      className: 'loader-bouncing'
+    },
+    {
       button: document.getElementById('loader-smartphone'),
       className: 'loader-smartphone'
     },
