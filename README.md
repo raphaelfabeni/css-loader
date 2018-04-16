@@ -390,6 +390,9 @@ This loader differs from the other because we have to pass an attribute to it, a
 2. `yarn install` and `yarn serve`
 3. Open => `http://localhost:3000` (if it didn't open automatically)
 4. Make your magic contribution.
+  4.1. Choose a special name for your loader (`loaders-name-you-want`) and add to `loaders.json`. 
+  4.2. Creates the example file inside the `examples` folder (uses the loader name you chose). You can copy one of the examples and make the necessary changes.
+  4.3. Creates the `.sass` files. The first one inside `src` folder which is the root style file for the loader and it will import the other files. And the other one, inside `loaders` folder with the specific style for the loader (both must have the same name you chose  - _loader-name-you-chose_).
 5. Run `yarn build` to create/update the dist files.
 6. Open a _PR_ with a new branch describing your changes. <o/
 

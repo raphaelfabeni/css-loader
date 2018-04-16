@@ -1,26 +1,22 @@
-var ExtractTextPlugin = require('extract-text-webpack-plugin')
-var LiveReloadPlugin = require('webpack-livereload-plugin')
-var SassLintPlugin = require('sasslint-webpack-plugin')
-var path = require('path')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const LiveReloadPlugin = require('webpack-livereload-plugin')
+const SassLintPlugin = require('sasslint-webpack-plugin')
+const path = require('path')
+const loaders = require('./loaders.json').loaders
+
+function getEntries() {
+  const tempObj = {}
+  const tempLoaders = loaders.map(loader => {
+    return tempObj[loader] = path.resolve(__dirname, 'src/' + loader + '.sass');
+  });
+
+  return tempObj
+}
 
 module.exports = {
   context: __dirname,
   name: 'css',
-  entry: {
-    'css-loader': path.resolve(__dirname, 'src/css-loader.sass'),
-    'loader-default': path.resolve(__dirname, 'src/loader-default.sass'),
-    'loader-double': path.resolve(__dirname, 'src/loader-double.sass'),
-    'loader-bar': path.resolve(__dirname, 'src/loader-bar.sass'),
-    'loader-bar-ping-pong': path.resolve(__dirname, 'src/loader-bar-ping-pong.sass'),
-    'loader-border': path.resolve(__dirname, 'src/loader-border.sass'),
-    'loader-ball': path.resolve(__dirname, 'src/loader-ball.sass'),
-    'loader-clock': path.resolve(__dirname, 'src/loader-clock.sass'),
-    'loader-smartphone': path.resolve(__dirname, 'src/loader-smartphone.sass'),
-    'loader-curtain': path.resolve(__dirname, 'src/loader-curtain.sass'),
-    'loader-music': path.resolve(__dirname, 'src/loader-music.sass'),
-    'loader-pokeball': path.resolve(__dirname, 'src/loader-pokeball.sass'),
-    'loader-bouncing': path.resolve(__dirname, 'src/loader-bouncing.sass')
-  },
+  entry: getEntries(),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js'
