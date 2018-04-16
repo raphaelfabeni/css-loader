@@ -1,0 +1,17 @@
+{
+	"loaders": [
+		"css-loader",
+		"loader-default",
+		"loader-double",
+		"loader-bar",
+		"loader-bar-ping-pong",
+		"loader-border",
+		"loader-ball",
+		"loader-clock",
+		"loader-smartphone",
+		"loader-curtain",
+		"loader-music",
+		"loader-pokeball",
+		"loader-bouncing"
+	]
+}
