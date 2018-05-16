@@ -72,7 +72,7 @@ Select the loader and add the corresponding HTML. In order to show the loader, y
 
 ![loader](https://cloud.githubusercontent.com/assets/1345662/19313531/2c715f18-906d-11e6-856a-17ca264112de.gif)
 
-[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-ball.css) :sparkles:
+[See it](http://raphaelfabeni.com.br/css-loader/#/loader-default) :metal: | [CSS](https://raw.githubusercontent.com/raphaelfabeni/css-loader/master/dist/loader-default.css) :sparkles:
 
 #### Variations
 
