@@ -1,6 +1,6 @@
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const LiveReloadPlugin = require('webpack-livereload-plugin')
-const SassLintPlugin = require('sasslint-webpack-plugin')
+// const StyleLintPlugin = require('stylelint-webpack-plugin');
 const path = require('path')
 const loaders = require('./loaders.json').loaders
 
@@ -25,24 +25,17 @@ module.exports = {
     rules: [
       {
         test: /\.sass$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            { loader: 'css-loader', options: { minimize: true } },
-            { loader: 'sass-loader' }
-          ]
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: 'css-loader', options: { minimize: true } },
+          'sass-loader',
+        ]
       }
     ]
   },
   plugins: [
-    new SassLintPlugin({
-      configFile: '.sass-lint.yml',
-      glob: 'src/**/*.s?(a|c)ss',
-      failOnWarning: true,
-      failOnError: true
-    }),
-    new ExtractTextPlugin('[name].css'),
+    // new StyleLintPlugin(options),
+    new MiniCssExtractPlugin('[name].css'),
     new LiveReloadPlugin()
   ],
   devServer: {
