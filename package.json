@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack && rimraf dist/*.js",
-    "serve": "webpack-dev-server"
+    "start": "webpack-dev-server"
   },
   "author": "Raphael Fabeni",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "sass-loader": "^6.0.6",
     "sasslint-webpack-plugin": "^1.0.4",
     "style-loader": "^0.18.2",
-    "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1",
+    "webpack": "3.8.1",
+    "webpack-dev-server": "2.11.1",
     "webpack-livereload-plugin": "^0.11.0"
   }
 }
