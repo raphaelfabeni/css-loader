@@ -1,6 +1,6 @@
 # CSS loader
 
-[![CDNJS](https://img.shields.io/cdnjs/v/css-loader.svg)](https://cdnjs.com/libraries/css-loader)
+[![CDNJS](https://img.shields.io/cdnjs/v/css-loader.svg)](https://cdnjs.com/libraries/css-loader) [![npm version](https://badge.fury.io/js/pure-css-loader.svg)](https://badge.fury.io/js/pure-css-loader)
 
 > A few simple examples of loaders using only one `div` and *CSS*.
 
