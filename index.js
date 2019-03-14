@@ -1,1 +1,1 @@
-require('./dist/css-loader.css')
+require("./dist/css-loader.css");
