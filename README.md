@@ -1,6 +1,6 @@
 # CSS loader
 
-[![CDNJS](https://img.shields.io/cdnjs/v/css-loader.svg)](https://cdnjs.com/libraries/css-loader) [![npm version](https://badge.fury.io/js/pure-css-loader.svg)](https://badge.fury.io/js/pure-css-loader) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![HitCount](http://hits.dwyl.io/raphaelfabeni/css-loader.svg)](http://hits.dwyl.io/raphaelfabeni/css-loader)
+[![CDNJS](https://img.shields.io/cdnjs/v/css-loader.svg)](https://cdnjs.com/libraries/css-loader) [![npm version](https://badge.fury.io/js/pure-css-loader.svg)](https://badge.fury.io/js/pure-css-loader) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/raphaelfabeni/css-loader/issues) [![HitCount](http://hits.dwyl.io/raphaelfabeni/css-loader.svg)](http://hits.dwyl.io/raphaelfabeni/css-loader)
 
 
 > A few simple examples of loaders using only one `div` and *CSS*.
