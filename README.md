@@ -407,4 +407,4 @@ Based on _Can i Use_. One thing to note is that the CSS file has no browser pref
 
 ## License
 
-[MIT License](https://raphaelfabeni.mit-license.org/) © Raphael Fabeni
+[GPL License](/LICENSE) © Raphael Fabeni
