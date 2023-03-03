@@ -15,7 +15,7 @@
     "mini-css-extract-plugin": "0.5.0",
     "node-sass": "4.13.1",
     "rimraf": "2.6.1",
-    "sass-lint": "1.8.0",
+    "sass-lint": "1.13.1",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "stylelint-webpack-plugin": "0.10.5",
